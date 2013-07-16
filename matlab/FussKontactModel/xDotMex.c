@@ -47,6 +47,7 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
     
     double *xDot, *t, *vXin, *vParam, *vInput;
     int m;
+    int mContact = 12;
 
     //============================================================================
     //Check number of input arguments
@@ -80,7 +81,7 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
 
    //============================================================================    
    //Create the output data array
-    xDot_OUT    = mxCreateDoubleMatrix(m,1,mxREAL);
+    xDot_OUT    = mxCreateDoubleMatrix(m+mContact,1,mxREAL);
     xDot        = mxGetPr(xDot_OUT);
             
    //============================================================================    
@@ -165,7 +166,7 @@ double GrabnerDiskContact (
   double forceTangentUV[3];
   double tmp1[3];
   double tmp2[3];
-  for (i = 1; i <= 12; i++)
+  for (i = 1; i <= 15; i++) //edited
     aOut[i - 1] = 0;
   epsRoot = 0.1490116119384766e-7;
   sx = leParams[0];
@@ -309,6 +310,12 @@ double GrabnerDiskContact (
     aOut[9] = (int) (rPMO[1] * (double) aOut[8] - rPMO[2] * (double) aOut[7]);
     aOut[10] = (int) (-rPMO[0] * (double) aOut[8] + rPMO[2] * (double) aOut[6]);
     aOut[11] = (int) (rPMO[0] * (double) aOut[7] - rPMO[1] * (double) aOut[6]);
+    
+    //edited - only available in this copy
+    aOut[12] = rPMO[0] + rO[0];
+    aOut[13] = rPMO[1] + rO[1];
+    aOut[14] = rPMO[2] + rO[2];
+    
   }
   return(0.0e0);
 }
@@ -316,7 +323,7 @@ double GrabnerDiskContact (
 void C_Xdot(double t, double* vX_in, double* vParam, double* vInput, double* XDOT)
 {
   double zz[227];
-double CFHeel[12];
+double CFHeel[15]; //edited
 double R1Heel[9];
 double R2Heel[9];
 double r1Heel[3];
@@ -325,7 +332,7 @@ double v1Heel[3];
 double v2Heel[3];
 double w1Heel[3];
 double w2Heel[3];
-double CFForefoot[12];
+double CFForefoot[15]; //edited
 double CParamsForefoot[21];
 double CParamsHeel[21];
 double R1Forefoot[9];
@@ -908,6 +915,24 @@ XDOT[10] = zz[214];
 XDOT[11] = zz[215];
 XDOT[12] = zz[216];
 XDOT[13] = zz[217];
+
+//edited
+XDOT[14] = CFHeel[0]; //Heel Fx
+XDOT[15] = CFHeel[1]; //Heel Fy
+XDOT[16] = CFHeel[2]; //Heel Fz
+
+XDOT[17] = CFHeel[12]; //Heel COP x
+XDOT[18] = CFHeel[13]; //Heel COP y 
+XDOT[19] = CFHeel[14]; //Heel COP z
+
+XDOT[20] = CFForefoot[0]; //Forefoot Fx
+XDOT[21] = CFForefoot[1]; //Forefoot Fy
+XDOT[22] = CFForefoot[2]; //Forefoot Fz
+
+XDOT[23] = CFForefoot[12]; //Forefoot COP x
+XDOT[24] = CFForefoot[13]; //Forefoot COP x
+XDOT[25] = CFForefoot[14]; //Forefoot COP x
+
 }
 
 
