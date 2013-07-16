@@ -12,4 +12,3 @@ xdot = xDotMex(t0, vIC, vParams, vInputs);
 disp(xdot);
 
 
-
