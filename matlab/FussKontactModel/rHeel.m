@@ -1,0 +1,14 @@
+t1 = cos(xi);
+t2 = cos(eta);
+t3 = sin(xi);
+t4 = sin(eta);
+t5 = -K1ax + K1bx;
+t6 = K1ay - K1by;
+t7 = -K1az + K1bz;
+t8 = sin(zeta);
+t9 = cos(zeta);
+t10 = t1 * t8;
+t11 = t3 * t9;
+t12 = t3 * t8;
+t13 = t1 * t9;
+cg = [t2 * (t1 * t5 + t3 * t6) + t4 * t7 + x t5 * (t10 * t4 + t11) - t6 * (-t12 * t4 + t13) + y - t2 * t8 * t7 t5 * (-t13 * t4 + t12) - t6 * (t11 * t4 + t10) + z + t2 * t9 * t7];

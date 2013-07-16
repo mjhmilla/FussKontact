@@ -1,0 +1,31 @@
+function mu = calculateFrictionCoefficient(vel, mus,mud,stVel,dyVel)
+
+absVel = abs(vel);
+mu = 0;
+fricDIR = 0;
+
+if (0.0e0 < absVel)
+    if (absVel > dyVel)
+        if (vel > 0) 
+            fricDIR = -1.0*mud;
+        else
+            fricDIR = mud;
+        end
+
+    elseif (absVel > stVel && absVel < dyVel)
+        delta = (absVel - stVel)/(dyVel-stVel);
+        fricDIR = mus +(mud-mus)*delta*delta*(3.0-2.0*delta);
+        if (vel > 0)
+            fricDIR = -1.0*fricDIR;
+        end
+    else
+        delta   = (absVelTangent + stVel)/(2.0*stVel);
+        fricDIR = -mus + (2*mus)*delta*delta*(3.0-2.0*delta);
+
+        if (vel > 0)
+            fricDIR = -1.0*fricDIR;
+        end
+    end
+end 
+
+mu = fricDIR;

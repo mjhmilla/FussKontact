@@ -1,0 +1,13 @@
+#Contact
+rMData["Heel"] := 
+	"SubIdent", "m3DContact", 
+	"Description", "Heel", 
+	"NodeMap", [[DOM_MT, "mGND", "K1b", "mGND"], [DOM_MR, "mGND", "K1b", "mGND"]], 
+	"Params", ["ContactFunc" = "GrabnerDiskContact", "ConParams" = [sx,sy,sz,nx,ny,nz,t1x,t1y,t1z,t2x,t2y,t2z,rB,aB,kB,pB,cB,mus,mud,stVel,dyVel]]:
+        
+
+rMData["Forefoot"] := 
+	"SubIdent", "m3DContact", 
+	"Description", "Forefoot", 
+	"NodeMap", [[DOM_MT, "mGND", "K2com", "mGND"], [DOM_MR, "mGND", "K2com", "mGND"]], 
+	"Params", ["ContactFunc" = "GrabnerDiskContact", "ConParams" = [sx,sy,sz,nx,ny,nz,t1x,t1y,t1z,t2x,t2y,t2z,rC,aC,kC,pC,cC,mus,mud,stVel,dyVel]]:
