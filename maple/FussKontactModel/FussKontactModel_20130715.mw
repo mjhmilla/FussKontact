@@ -141,7 +141,7 @@ Time_to_Formulate:= time()-tt;</Text-field>
 <Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">UWVwUGVmb3JtaW5nfmF+ZHluYW1pY35hbmFseXNpc35vbn50aGV+Y29uc3RyYWludH5mcmVlfnN5c3RlbX4tfnN5c3RlbX52YXJpYWJsZXN+c2hvd25+YmVsb3c6NiI=</Equation></Text-field>
 </Output>
 <Output>
-<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYwLUkjbXNHRiQ2I1EjdlFGJy1JI21vR0YkNi1RIixGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHUSV0cnVlRicvJSlzdHJldGNoeUdGOC8lKnN5bW1ldHJpY0dGOC8lKGxhcmdlb3BHRjgvJS5tb3ZhYmxlbGltaXRzR0Y4LyUnYWNjZW50R0Y4LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictSShtYWN0aW9uR0YkNiUtSShtZmVuY2VkR0YkNigtRiM2Ji1JJ210YWJsZUdGJDY7LUkkbXRyR0YkNiYtSSRtdGRHRiQ2KC1GIzYoLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR0Y7L0Y0USdpdGFsaWNGJy1GMDYtUTAmQXBwbHlGdW5jdGlvbjtGJ0YzRjYvRjpGOEY8Rj5GQEZCRkRGRi9GSkZILUZQNiQtRiM2Ji1Gam42JVEidEYnRl1vRl9vLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lK2JhY2tncm91bmRHUS5bMjU1LDI1NSwyNTVdRidGM0YzRl1wRmBwRjMvJSlyb3dhbGlnbkdRIUYnLyUsY29sdW1uYWxpZ25HRmVwLyUrZ3JvdXBhbGlnbkdGZXAvJShyb3dzcGFuR1EiMUYnLyUrY29sdW1uc3BhbkdGXHFGY3BGZnBGaHAtRlg2Ji1GZW42KC1GIzYoLUZqbjYlUSJ5RidGXW9GX29GYW9GZm9GXXBGYHBGM0ZjcEZmcEZocEZqcEZdcUZjcEZmcEZocC1GWDYmLUZlbjYoLUYjNigtRmpuNiVRInpGJ0Zdb0Zfb0Zhb0Zmb0ZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KC1Gam42JVEnJiM5NTI7RicvRl5vRjhGM0Zhb0Zmb0ZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KC1Gam42JVEnJiM5NTA7RidGanJGM0Zhb0Zmb0ZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KC1Gam42JVEnJiM5NTE7RidGanJGM0Zhb0Zmb0ZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KC1Gam42JVEnJiM5NTg7RidGanJGM0Zhb0Zmb0ZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLyUmYWxpZ25HUSVheGlzRicvRmRwUSliYXNlbGluZUYnL0ZncFEnY2VudGVyRicvRmlwUSd8ZnJsZWZ0fGhyRicvJS9hbGlnbm1lbnRzY29wZUdGOy8lLGNvbHVtbndpZHRoR1ElYXV0b0YnLyUmd2lkdGhHRmN1LyUrcm93c3BhY2luZ0dRJjEuMGV4RicvJS5jb2x1bW5zcGFjaW5nR1EmMC44ZW1GJy8lKXJvd2xpbmVzR1Elbm9uZUYnLyUsY29sdW1ubGluZXNHRl52LyUmZnJhbWVHRl52LyUtZnJhbWVzcGFjaW5nR1EsMC40ZW1+MC41ZXhGJy8lKmVxdWFscm93c0dGOC8lLWVxdWFsY29sdW1uc0dGOC8lLWRpc3BsYXlzdHlsZUdGOC8lJXNpZGVHUSZyaWdodEYnLyUwbWlubGFiZWxzcGFjaW5nR0ZbdkZdcEZgcEYzRjMvSSttc2VtYW50aWNzR0YkUSpDb2xWZWN0b3JGJy8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0Zhdy8lK2FjdGlvbnR5cGVHUS5ydGFibGVhZGRyZXNzRicvJSlydGFibGVpZEdRNTE4NDQ2NzQ0MDczOTAyNDc5NDcwRidGLy1GLDYjUSN2UEYnRi8tRk02JS1GUDYoLUYjNiYtRlU2Oy1GWDYmLUZlbjYoLUYjNigtRmpuNiVRI3Z4RidGXW9GX29GYW9GZm9GXXBGYHBGM0ZjcEZmcEZocEZqcEZdcUZjcEZmcEZocC1GWDYmLUZlbjYoLUYjNigtRmpuNiVRI3Z5RidGXW9GX29GYW9GZm9GXXBGYHBGM0ZjcEZmcEZocEZqcEZdcUZjcEZmcEZocC1GWDYmLUZlbjYoLUYjNigtRmpuNiVRI3Z6RidGXW9GX29GYW9GZm9GXXBGYHBGM0ZjcEZmcEZocEZqcEZdcUZjcEZmcEZocC1GWDYmLUZlbjYoLUYjNigtSSZtZnJhY0dGJDYoLUYjNiYtRjA2LVEwJkRpZmZlcmVudGlhbEQ7RidGM0Y2RmRvRjxGPkZARkJGREZGRmVvRl1wRmBwRjMtRiM2Ji1GIzYnRmFbbEZqb0ZdcEZgcEYzRl1wRmBwRjMvJS5saW5ldGhpY2tuZXNzR0ZccS8lK2Rlbm9tYWxpZ25HRlx1LyUpbnVtYWxpZ25HRlx1LyUpYmV2ZWxsZWRHRjgtRjA2LVExJkludmlzaWJsZVRpbWVzO0YnRjNGNkZkb0Y8Rj5GQEZCRkRGRkZlb0ZlckZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KC1Gam42JVEjd3hGJ0Zdb0Zfb0Zhb0Zmb0ZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KC1Gam42JVEjd3lGJ0Zdb0Zfb0Zhb0Zmb0ZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KC1Gam42JVEjd3pGJ0Zdb0Zfb0Zhb0Zmb0ZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwRmZ0Rml0Rlt1Rl11Rl91RmF1RmR1RmZ1Rml1Rlx2Rl92RmF2RmN2RmZ2Rmh2Rmp2Rlx3Rl93Rl1wRmBwRjNGM0Zhd0Zkd0Znd0Zhd0Zqdy9GXnhRNTE4NDQ2NzQ0MDczOTAyNDc5ODMwRidGLy1GLDYjUSZ2UGRvdEYnRi8tRk02JS1GUDYoLUYjNiYtRlU2Oy1GWDYmLUZlbjYoLUYjNihGXFtsRmBcbEZfeUZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KEZcW2xGYFxsRmh5Rl1wRmBwRjNGY3BGZnBGaHBGanBGXXFGY3BGZnBGaHAtRlg2Ji1GZW42KC1GIzYoRlxbbEZgXGxGYXpGXXBGYHBGM0ZjcEZmcEZocEZqcEZdcUZjcEZmcEZocC1GWDYmLUZlbjYoLUYjNigtRl1bbDYoLUYjNiYtSSVtc3VwR0YkNiVGYVtsLUkjbW5HRiQ2JFEiMkYnRjMvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRl1wRmBwRjMtRiM2Ji1GIzYnRmFbbC1GaGBsNiVGam9GamBsRl5hbEZdcEZgcEYzRl1wRmBwRjNGaFtsRmpbbEZcXGxGXlxsRmBcbEZlckZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KEZcW2xGYFxsRmdcbEZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KEZcW2xGYFxsRmBdbEZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KEZcW2xGYFxsRmldbEZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwRmZ0Rml0Rlt1Rl11Rl91RmF1RmR1RmZ1Rml1Rlx2Rl92RmF2RmN2RmZ2Rmh2Rmp2Rlx3Rl93Rl1wRmBwRjNGM0Zhd0Zkd0Znd0Zhd0Zqdy9GXnhRNTE4NDQ2NzQ0MDczOTAyNDc5OTUwRidGXXBGYHBGMw==">NihRI3ZRNiItJkknVmVjdG9yRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliR0YkNiNJJ2NvbHVtbkdGJDYjL0kkJWlkR0YkIjVxJXpDIVIyV25XPVEjdlBGJC1GJjYjL0YvIjVJKXpDIVIyV25XPVEmdlBkb3RGJC1GJjYjL0YvIjVdKnpDIVIyV25XPQ==</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYwLUkjbXNHRiQ2I1EjdlFGJy1JI21vR0YkNi1RIixGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHUSV0cnVlRicvJSlzdHJldGNoeUdGOC8lKnN5bW1ldHJpY0dGOC8lKGxhcmdlb3BHRjgvJS5tb3ZhYmxlbGltaXRzR0Y4LyUnYWNjZW50R0Y4LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictSShtYWN0aW9uR0YkNiUtSShtZmVuY2VkR0YkNigtRiM2Ji1JJ210YWJsZUdGJDY7LUkkbXRyR0YkNiYtSSRtdGRHRiQ2KC1GIzYoLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR0Y7L0Y0USdpdGFsaWNGJy1GMDYtUTAmQXBwbHlGdW5jdGlvbjtGJ0YzRjYvRjpGOEY8Rj5GQEZCRkRGRi9GSkZILUZQNiQtRiM2Ji1Gam42JVEidEYnRl1vRl9vLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lK2JhY2tncm91bmRHUS5bMjU1LDI1NSwyNTVdRidGM0YzRl1wRmBwRjMvJSlyb3dhbGlnbkdRIUYnLyUsY29sdW1uYWxpZ25HRmVwLyUrZ3JvdXBhbGlnbkdGZXAvJShyb3dzcGFuR1EiMUYnLyUrY29sdW1uc3BhbkdGXHFGY3BGZnBGaHAtRlg2Ji1GZW42KC1GIzYoLUZqbjYlUSJ5RidGXW9GX29GYW9GZm9GXXBGYHBGM0ZjcEZmcEZocEZqcEZdcUZjcEZmcEZocC1GWDYmLUZlbjYoLUYjNigtRmpuNiVRInpGJ0Zdb0Zfb0Zhb0Zmb0ZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KC1Gam42JVEnJiM5NTI7RicvRl5vRjhGM0Zhb0Zmb0ZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KC1Gam42JVEnJiM5NTA7RidGanJGM0Zhb0Zmb0ZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KC1Gam42JVEnJiM5NTE7RidGanJGM0Zhb0Zmb0ZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KC1Gam42JVEnJiM5NTg7RidGanJGM0Zhb0Zmb0ZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLyUmYWxpZ25HUSVheGlzRicvRmRwUSliYXNlbGluZUYnL0ZncFEnY2VudGVyRicvRmlwUSd8ZnJsZWZ0fGhyRicvJS9hbGlnbm1lbnRzY29wZUdGOy8lLGNvbHVtbndpZHRoR1ElYXV0b0YnLyUmd2lkdGhHRmN1LyUrcm93c3BhY2luZ0dRJjEuMGV4RicvJS5jb2x1bW5zcGFjaW5nR1EmMC44ZW1GJy8lKXJvd2xpbmVzR1Elbm9uZUYnLyUsY29sdW1ubGluZXNHRl52LyUmZnJhbWVHRl52LyUtZnJhbWVzcGFjaW5nR1EsMC40ZW1+MC41ZXhGJy8lKmVxdWFscm93c0dGOC8lLWVxdWFsY29sdW1uc0dGOC8lLWRpc3BsYXlzdHlsZUdGOC8lJXNpZGVHUSZyaWdodEYnLyUwbWlubGFiZWxzcGFjaW5nR0ZbdkZdcEZgcEYzRjMvSSttc2VtYW50aWNzR0YkUSpDb2xWZWN0b3JGJy8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0Zhdy8lK2FjdGlvbnR5cGVHUS5ydGFibGVhZGRyZXNzRicvJSlydGFibGVpZEdRNTE4NDQ2NzQ0MDczOTExODUxMTE4RidGLy1GLDYjUSN2UEYnRi8tRk02JS1GUDYoLUYjNiYtRlU2Oy1GWDYmLUZlbjYoLUYjNigtRmpuNiVRI3Z4RidGXW9GX29GYW9GZm9GXXBGYHBGM0ZjcEZmcEZocEZqcEZdcUZjcEZmcEZocC1GWDYmLUZlbjYoLUYjNigtRmpuNiVRI3Z5RidGXW9GX29GYW9GZm9GXXBGYHBGM0ZjcEZmcEZocEZqcEZdcUZjcEZmcEZocC1GWDYmLUZlbjYoLUYjNigtRmpuNiVRI3Z6RidGXW9GX29GYW9GZm9GXXBGYHBGM0ZjcEZmcEZocEZqcEZdcUZjcEZmcEZocC1GWDYmLUZlbjYoLUYjNigtSSZtZnJhY0dGJDYoLUYjNiYtRjA2LVEwJkRpZmZlcmVudGlhbEQ7RidGM0Y2RmRvRjxGPkZARkJGREZGRmVvRl1wRmBwRjMtRiM2Ji1GIzYnRmFbbEZqb0ZdcEZgcEYzRl1wRmBwRjMvJS5saW5ldGhpY2tuZXNzR0ZccS8lK2Rlbm9tYWxpZ25HRlx1LyUpbnVtYWxpZ25HRlx1LyUpYmV2ZWxsZWRHRjgtRjA2LVExJkludmlzaWJsZVRpbWVzO0YnRjNGNkZkb0Y8Rj5GQEZCRkRGRkZlb0ZlckZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KC1Gam42JVEjd3hGJ0Zdb0Zfb0Zhb0Zmb0ZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KC1Gam42JVEjd3lGJ0Zdb0Zfb0Zhb0Zmb0ZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KC1Gam42JVEjd3pGJ0Zdb0Zfb0Zhb0Zmb0ZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwRmZ0Rml0Rlt1Rl11Rl91RmF1RmR1RmZ1Rml1Rlx2Rl92RmF2RmN2RmZ2Rmh2Rmp2Rlx3Rl93Rl1wRmBwRjNGM0Zhd0Zkd0Znd0Zhd0Zqdy9GXnhRNTE4NDQ2NzQ0MDczOTExODUxNDc4RidGLy1GLDYjUSZ2UGRvdEYnRi8tRk02JS1GUDYoLUYjNiYtRlU2Oy1GWDYmLUZlbjYoLUYjNihGXFtsRmBcbEZfeUZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KEZcW2xGYFxsRmh5Rl1wRmBwRjNGY3BGZnBGaHBGanBGXXFGY3BGZnBGaHAtRlg2Ji1GZW42KC1GIzYoRlxbbEZgXGxGYXpGXXBGYHBGM0ZjcEZmcEZocEZqcEZdcUZjcEZmcEZocC1GWDYmLUZlbjYoLUYjNigtRl1bbDYoLUYjNiYtSSVtc3VwR0YkNiVGYVtsLUkjbW5HRiQ2JFEiMkYnRjMvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRl1wRmBwRjMtRiM2Ji1GIzYnRmFbbC1GaGBsNiVGam9GamBsRl5hbEZdcEZgcEYzRl1wRmBwRjNGaFtsRmpbbEZcXGxGXlxsRmBcbEZlckZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KEZcW2xGYFxsRmdcbEZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KEZcW2xGYFxsRmBdbEZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwLUZYNiYtRmVuNigtRiM2KEZcW2xGYFxsRmldbEZdcEZgcEYzRmNwRmZwRmhwRmpwRl1xRmNwRmZwRmhwRmZ0Rml0Rlt1Rl11Rl91RmF1RmR1RmZ1Rml1Rlx2Rl92RmF2RmN2RmZ2Rmh2Rmp2Rlx3Rl93Rl1wRmBwRjNGM0Zhd0Zkd0Znd0Zhd0Zqdy9GXnhRNTE4NDQ2NzQ0MDczOTExODUxNTk4RidGXXBGYHBGMw==">NihRI3ZRNiItJkknVmVjdG9yRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliR0YkNiNJJ2NvbHVtbkdGJDYjL0kkJWlkR0YkIjU9NiY9IlIyV25XPVEjdlBGJC1GJjYjL0YvIjV5OSY9IlIyV25XPVEmdlBkb3RGJC1GJjYjL0YvIjUpZl49IlIyV25XPQ==</Equation></Text-field>
 </Output>
 <Output>
 <Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">UTtEeW5hbWljfmFuYWx5c2lzfmNvbXBsZXRlLjYi</Equation></Text-field>
@@ -156,7 +156,7 @@ Time_to_Formulate:= time()-tt;</Text-field>
 <Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">UV10VXNlfmBNb2RlbH46PX5HZXRNb2RlbCgiQzovbWpobWlsbGEvZGV2L0Z1c3NLb250YWN0L21hcGxlL0Z1c3NLb250YWN0TW9kZWwvRnVzc0tvbnRhY3RNb2RlbF9Gb3JjZURyaXZlbl8yMDEzMDcxNS5saWIiKTpgfnRvfnJldHJpZXZlfnN0b3JlZH5tb2RlbC42Ig==</Equation></Text-field>
 </Output>
 <Output>
-<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEyVGltZV90b19Gb3JtdWxhdGVGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFEmMS43ODJGJ0Y5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lK2JhY2tncm91bmRHUS5bMjU1LDI1NSwyNTVdRidGOQ==">JCIlI3kiISIk</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEyVGltZV90b19Gb3JtdWxhdGVGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFEmMi40MzhGJ0Y5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lK2JhY2tncm91bmRHUS5bMjU1LDI1NSwyNTVdRidGOQ==">JCIlUUMhIiQ=</Equation></Text-field>
 </Output>
 </Group>
 <Group labelreference="L2422" drawlabel="true">
@@ -174,7 +174,7 @@ Time_to_Formulate:= time()-tt;</Text-field>
 </Group>
 <Group labelreference="L138" drawlabel="true">
 <Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal">?DynamicSystemsBlockGeneration</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
 </Input>
 </Group>
 <Group labelreference="L136" drawlabel="true">
@@ -191,6 +191,9 @@ Time_to_Formulate:= time()-tt;</Text-field>
 <Input>
 <Text-field prompt="&gt; " style="Maple Input" layout="Normal">FileTools[Remove](&quot;xdot.c&quot;):</Text-field>
 </Input>
+<Output>
+<Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20(in%20FileTools%3A-Remove)%20failed%20to%20remove%20the%20following%20files%3A%20%5B%22xdot.c%22%5D" hyperlink="true"><Font style="HyperlinkError">Error, (in FileTools:-Remove) failed to remove the following files: [&quot;xdot.c&quot;]</Font></Hyperlink></Text-field>
+</Output>
 </Group>
 <Group labelreference="L144" drawlabel="true">
 <Input>
@@ -233,7 +236,7 @@ Time_to_Formulate:= time()-tt;</Text-field>
 <Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYuLUYjNiYtSSNtbkdGJDYkUSQ0NzdGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYtUTEmSW52aXNpYmxlVGltZXM7RidGMS8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGOi8lKXN0cmV0Y2h5R0Y6LyUqc3ltbWV0cmljR0Y6LyUobGFyZ2VvcEdGOi8lLm1vdmFibGVsaW1pdHNHRjovJSdhY2NlbnRHRjovJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZJLUkjbWlHRiQ2JVErc3Vic2NyaXB0c0YnLyUnaXRhbGljR1EldHJ1ZUYnL0YyUSdpdGFsaWNGJ0YxLUY1Ni1RIitGJ0YxRjhGO0Y9Rj9GQUZDRkUvRkhRLDAuMjIyMjIyMmVtRicvRktGWS1GIzYmLUYuNiRRJDU3MUYnRjFGNC1GTTYlUSxhc3NpZ25tZW50c0YnRlBGU0YxRlUtRiM2Ji1GLjYkUSMxNkYnRjFGNC1GTTYlUSpmdW5jdGlvbnNGJ0ZQRlNGMUZVLUYjNiYtRi42JFEkODgxRidGMUY0LUZNNiVRMG11bHRpcGxpY2F0aW9uc0YnRlBGU0YxRlUtRiM2Ji1GLjYkUSQ3MDZGJ0YxRjQtRk02JVEqYWRkaXRpb25zRidGUEZTRjFGVS1GIzYmLUYuNiRRIjhGJ0YxRjQtRk02JVEqZGl2aXNpb25zRidGUEZTRjFGMQ==">LC5JK3N1YnNjcmlwdHNHNiIiJHglSSxhc3NpZ25tZW50c0dGJCIkciZJKmZ1bmN0aW9uc0dGJCIjO0kwbXVsdGlwbGljYXRpb25zR0YkIiQiKSlJKmFkZGl0aW9uc0dGJCIkMShJKmRpdmlzaW9uc0dGJCIiKQ==</Equation></Text-field>
 </Output>
 <Output>
-<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">UUAtLS0tZHVyYXRpb246fjIuNTc4fnNlY29uZHMtLS0tNiI=</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">UUAtLS0tZHVyYXRpb246fjIuOTA2fnNlY29uZHMtLS0tNiI=</Equation></Text-field>
 </Output>
 <Output>
 <Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">USE2Ig==</Equation></Text-field>
@@ -241,8 +244,11 @@ Time_to_Formulate:= time()-tt;</Text-field>
 </Group>
 <Group labelreference="L2522" drawlabel="true">
 <Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(ArrayTools);</Text-field>
 </Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">N0RJMkFkZEFsb25nRGltZW5zaW9uRzYiSSZBbGlhc0dGJEkrQWxsTm9uWmVyb0dGJEksQW55Tm9uWmVyb3NHRiRJKkJsb2NrQ29weUdGJEkuQ2lyY3VsYXJTaGlmdEdGJEkvQ29tcGxleEFzRmxvYXRHRiRJLENvbmNhdGVuYXRlR0YkSSVDb3B5R0YkSS5EYXRhVHJhbnNwb3NlR0YkSSlEaWFnb25hbEdGJEkrRGltZW5zaW9uc0dGJEkuRWxlbWVudERpdmlkZUdGJEkwRWxlbWVudE11bHRpcGx5R0YkSS1FbGVtZW50UG93ZXJHRiRJJUZpbGxHRiRJLkZsaXBEaW1lbnNpb25HRiRJK0hhc05vblplcm9HRiRJKEhhc1plcm9HRiRJKElzRXF1YWxHRiRJJ0lzWmVyb0dGJEkuTG93ZXJUcmlhbmdsZUdGJEk3TXVsdGlwbHlBbG9uZ0RpbWVuc2lvbkdGJEkpTnVtRWxlbXNHRiRJKFBlcm11dGVHRiRJL1Blcm11dGVJbnZlcnNlR0YkSSxSYW5kb21BcnJheUdGJEktUmVndWxhckFycmF5R0YkSTpSZW1vdmVTaW5nbGV0b25EaW1lbnNpb25zR0YkSSpSZXBsaWNhdGVHRiRJKFJlc2hhcGVHRiRJLFNlYXJjaEFycmF5R0YkSSVTaXplR0YkSS5VcHBlclRyaWFuZ2xlR0Yk</Equation></Text-field>
+</Output>
 </Group>
 <Group labelreference="L2521" drawlabel="true">
 <Input>
@@ -264,8 +270,11 @@ Time_to_Formulate:= time()-tt;</Text-field>
 </Group>
 <Group labelreference="L135" drawlabel="true">
 <Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">inputs := GetInputs();</Text-field>
 </Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEnaW5wdXRzRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEjOj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JKG1mZW5jZWRHRiQ2Ji1GIzYyLUYjNigtRiw2JVEjRnhGJ0YvRjItRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmduLUZQNiQtRiM2Ji1GLDYlUSJ0RidGL0YyLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lK2JhY2tncm91bmRHUS5bMjU1LDI1NSwyNTVdRidGOUY5RmBvRmNvRjktRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSEZmbi9GTlEsMC4zMzMzMzMzZW1GJy1GIzYoLUYsNiVRI0Z5RidGL0YyRllGaW5GYG9GY29GOUZmby1GIzYoLUYsNiVRI0Z6RidGL0YyRllGaW5GYG9GY29GOUZmby1GIzYoLUYsNiVRI014RidGL0YyRllGaW5GYG9GY29GOUZmby1GIzYoLUYsNiVRI015RidGL0YyRllGaW5GYG9GY29GOUZmby1GIzYoLUYsNiVRI016RidGL0YyRllGaW5GYG9GY29GOUZmby1GIzYoLUYsNiVRKFRLMmNLMmFGJ0YvRjJGWUZpbkZgb0Zjb0Y5RmBvRmNvRjlGOS8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0Zgb0Zjb0Y5">NyktSSNGeEc2IjYjSSJ0R0YlLUkjRnlHRiVGJi1JI0Z6R0YlRiYtSSNNeEdGJUYmLUkjTXlHRiVGJi1JI016R0YlRiYtSShUSzJjSzJhR0YlRiY=</Equation></Text-field>
+</Output>
 </Group>
 <Group labelreference="L74" drawlabel="true">
 <Input>
@@ -279,6 +288,33 @@ Time_to_Formulate:= time()-tt;</Text-field>
 <Output>
 <Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEncGFyYW1zRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEjOj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JKG1mZW5jZWRHRiQ2Ji1GIzZicS1GLDYlUSJHRidGL0YyLUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkgvRktRJjAuMGVtRicvRk5RLDAuMzMzMzMzM2VtRictRiw2JVElSnh4MUYnRi9GMkZXLUYsNiVRJUp4eDJGJ0YvRjJGVy1GLDYlUSVKeXkxRidGL0YyRlctRiw2JVElSnl5MkYnRi9GMkZXLUYsNiVRJUp6ejFGJ0YvRjJGVy1GLDYlUSVKenoyRidGL0YyRlctRiw2JVElSzFheEYnRi9GMkZXLUYsNiVRJUsxYXlGJ0YvRjJGVy1GLDYlUSVLMWF6RidGL0YyRlctRiw2JVEmSzFicnhGJ0YvRjJGVy1GLDYlUSZLMWJyeUYnRi9GMkZXLUYsNiVRJUsxYnhGJ0YvRjJGVy1GLDYlUSVLMWJ5RidGL0YyRlctRiw2JVElSzFiekYnRi9GMkZXLUYsNiVRJksxY3J6RidGL0YyRlctRiw2JVElSzFjeEYnRi9GMkZXLUYsNiVRJUsxY3lGJ0YvRjJGVy1GLDYlUSVLMWN6RidGL0YyRlctRiw2JVElSzJheEYnRi9GMkZXLUYsNiVRJUsyYXlGJ0YvRjJGVy1GLDYlUSVLMmF6RidGL0YyRlctRiw2JVEjYUZGJ0YvRjJGVy1GLDYlUSNhSEYnRi9GMkZXLUYsNiVRI2NGRidGL0YyRlctRiw2JVEjY0hGJ0YvRjJGVy1GLDYlUSZkeVZlbEYnRi9GMkZXLUYsNiVRI2tGRidGL0YyRlctRiw2JVEja0hGJ0YvRjJGVy1GLDYlUSNtMUYnRi9GMkZXLUYsNiVRI20yRidGL0YyRlctRiw2JVEkbXVkRidGL0YyRlctRiw2JVEkbXVzRidGL0YyRlctRiw2JVEjbnhGJ0YvRjJGVy1GLDYlUSNueUYnRi9GMkZXLUYsNiVRI256RidGL0YyRlctRiw2JVEjcEZGJ0YvRjJGVy1GLDYlUSNwSEYnRi9GMkZXLUYsNiVRI3JGRidGL0YyRlctRiw2JVEjckhGJ0YvRjJGVy1GLDYlUSZzdFZlbEYnRi9GMkZXLUYsNiVRI3N4RidGL0YyRlctRiw2JVEjc3lGJ0YvRjJGVy1GLDYlUSNzekYnRi9GMkZXLUYsNiVRJHQxeEYnRi9GMkZXLUYsNiVRJHQxeUYnRi9GMkZXLUYsNiVRJHQxekYnRi9GMkZXLUYsNiVRJHQyeEYnRi9GMkZXLUYsNiVRJHQyeUYnRi9GMkZXLUYsNiVRJHQyekYnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJStiYWNrZ3JvdW5kR1EuWzI1NSwyNTUsMjU1XUYnRjlGOS8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0ZceEZfeEY5">N1RJIkdHNiJJJUp4eDFHRiRJJUp4eDJHRiRJJUp5eTFHRiRJJUp5eTJHRiRJJUp6ejFHRiRJJUp6ejJHRiRJJUsxYXhHRiRJJUsxYXlHRiRJJUsxYXpHRiRJJksxYnJ4R0YkSSZLMWJyeUdGJEklSzFieEdGJEklSzFieUdGJEklSzFiekdGJEkmSzFjcnpHRiRJJUsxY3hHRiRJJUsxY3lHRiRJJUsxY3pHRiRJJUsyYXhHRiRJJUsyYXlHRiRJJUsyYXpHRiRJI2FGR0YkSSNhSEdGJEkjY0ZHRiRJI2NIR0YkSSZkeVZlbEdGJEkja0ZHRiRJI2tIR0YkSSNtMUdGJEkjbTJHRiRJJG11ZEdGJEkkbXVzR0YkSSNueEdGJEkjbnlHRiRJI256R0YkSSNwRkdGJEkjcEhHRiRJI3JGR0YkSSNySEdGJEkmc3RWZWxHRiRJI3N4R0YkSSNzeUdGJEkjc3pHRiRJJHQxeEdGJEkkdDF5R0YkSSR0MXpHRiRJJHQyeEdGJEkkdDJ5R0YkSSR0MnpHRiQ=</Equation></Text-field>
 </Output>
+</Group>
+<Group labelreference="L2529" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Size(params)</Text-field>
+</Input>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20inserted%20missing%20semicolon%20at%20end%20of%20statement" hyperlink="true"><Font style="HyperlinkWarning">Warning, inserted missing semicolon at end of statement</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWFjdGlvbkc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkobWZlbmNlZEdGJDYoLUknbXRhYmxlR0YkNjUtSSRtdHJHRiQ2Jy1JJG10ZEdGJDYoLUkjbW5HRiQ2JFEiMUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lKXJvd2FsaWduR1EhRicvJSxjb2x1bW5hbGlnbkdGQC8lK2dyb3VwYWxpZ25HRkAvJShyb3dzcGFuR0Y6LyUrY29sdW1uc3BhbkdGOi1GNTYoLUY4NiRRIzUwRidGO0Y+RkFGQ0ZFRkdGPkZBRkMvJSZhbGlnbkdRJWF4aXNGJy9GP1EpYmFzZWxpbmVGJy9GQlEnY2VudGVyRicvRkRRJ3xmcmxlZnR8aHJGJy8lL2FsaWdubWVudHNjb3BlR1EldHJ1ZUYnLyUsY29sdW1ud2lkdGhHUSVhdXRvRicvJSZ3aWR0aEdGZm4vJStyb3dzcGFjaW5nR1EmMS4wZXhGJy8lLmNvbHVtbnNwYWNpbmdHUSYwLjhlbUYnLyUpcm93bGluZXNHUSVub25lRicvJSxjb2x1bW5saW5lc0dGYW8vJSZmcmFtZUdGYW8vJS1mcmFtZXNwYWNpbmdHUSwwLjRlbX4wLjVleEYnLyUqZXF1YWxyb3dzR1EmZmFsc2VGJy8lLWVxdWFsY29sdW1uc0dGW3AvJS1kaXNwbGF5c3R5bGVHRltwLyUlc2lkZUdRJnJpZ2h0RicvJTBtaW5sYWJlbHNwYWNpbmdHRl5vRjsvSSttc2VtYW50aWNzR0YkUSdWZWN0b3JGJy8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0ZlcC8lK2FjdGlvbnR5cGVHUS5ydGFibGVhZGRyZXNzRicvJSlydGFibGVpZEdRNTE4NDQ2NzQ0MDc0MzUyMDg3NzU4Ric=">LUkmQXJyYXlHJSpwcm90ZWN0ZWRHNiMvSSQlaWRHNiIiNWV4M19WMlduVz0=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L2528" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Size(inputs)</Text-field>
+</Input>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20inserted%20missing%20semicolon%20at%20end%20of%20statement" hyperlink="true"><Font style="HyperlinkWarning">Warning, inserted missing semicolon at end of statement</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWFjdGlvbkc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkobWZlbmNlZEdGJDYoLUknbXRhYmxlR0YkNjUtSSRtdHJHRiQ2Jy1JJG10ZEdGJDYoLUkjbW5HRiQ2JFEiMUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lKXJvd2FsaWduR1EhRicvJSxjb2x1bW5hbGlnbkdGQC8lK2dyb3VwYWxpZ25HRkAvJShyb3dzcGFuR0Y6LyUrY29sdW1uc3BhbkdGOi1GNTYoLUY4NiRRIjdGJ0Y7Rj5GQUZDRkVGR0Y+RkFGQy8lJmFsaWduR1ElYXhpc0YnL0Y/USliYXNlbGluZUYnL0ZCUSdjZW50ZXJGJy9GRFEnfGZybGVmdHxockYnLyUvYWxpZ25tZW50c2NvcGVHUSV0cnVlRicvJSxjb2x1bW53aWR0aEdRJWF1dG9GJy8lJndpZHRoR0Zmbi8lK3Jvd3NwYWNpbmdHUSYxLjBleEYnLyUuY29sdW1uc3BhY2luZ0dRJjAuOGVtRicvJSlyb3dsaW5lc0dRJW5vbmVGJy8lLGNvbHVtbmxpbmVzR0Zhby8lJmZyYW1lR0Zhby8lLWZyYW1lc3BhY2luZ0dRLDAuNGVtfjAuNWV4RicvJSplcXVhbHJvd3NHUSZmYWxzZUYnLyUtZXF1YWxjb2x1bW5zR0ZbcC8lLWRpc3BsYXlzdHlsZUdGW3AvJSVzaWRlR1EmcmlnaHRGJy8lMG1pbmxhYmVsc3BhY2luZ0dGXm9GOy9JK21zZW1hbnRpY3NHRiRRJ1ZlY3RvckYnLyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRmVwLyUrYWN0aW9udHlwZUdRLnJ0YWJsZWFkZHJlc3NGJy8lKXJ0YWJsZWlkR1E1MTg0NDY3NDQwNzQzNTIwODc4NzhGJw==">LUkmQXJyYXlHJSpwcm90ZWN0ZWRHNiMvSSQlaWRHNiIiNXl5M19WMlduVz0=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L2527" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
 </Group>
 <Group labelreference="L69" drawlabel="true">
 <Input>
@@ -356,6 +392,32 @@ Time_to_Formulate:= time()-tt;</Text-field>
 <Text-field prompt="&gt; " style="Maple Input" layout="Normal">FileTools[Remove](&quot;leParamSubs.dat&quot;):</Text-field>
 </Input>
 </Group>
+<Group labelreference="L2524" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">FileTools[Remove](&quot;leParamList.dat&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2525" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">FileTools[Remove](&quot;InputsList.dat&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2523" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ExportVector(&quot;leParamList.dat&quot;,convert(params,Vector));</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiQzIw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L2526" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ExportVector(&quot;inputsList.dat&quot;,convert(inputs,Vector));</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiNa</Equation></Text-field>
+</Output>
+</Group>
 <Group labelreference="L145" drawlabel="true">
 <Input>
 <Text-field prompt="&gt; " style="Maple Input" layout="Normal">ExportVector(&quot;leParamSubs.dat&quot;,convert(leParamSubs,Vector));</Text-field>
@@ -407,7 +469,7 @@ Time_to_Optimise := time()-tt;
 <Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">UWpvcFhkb3QoTnVtU3RhdGVzLH50LH5TdGF0ZXMsflN0YXRlRGVyaXZhdGl2ZXMpfiNjb21wYXRpYmxlfndpdGh+YGRzb2x2ZS9udW1lcmljYDYi</Equation></Text-field>
 </Output>
 <Output>
-<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYuLUYjNiYtSSNtbkdGJDYkUSQyNDBGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYtUTEmSW52aXNpYmxlVGltZXM7RidGMS8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGOi8lKXN0cmV0Y2h5R0Y6LyUqc3ltbWV0cmljR0Y6LyUobGFyZ2VvcEdGOi8lLm1vdmFibGVsaW1pdHNHRjovJSdhY2NlbnRHRjovJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZJLUkjbWlHRiQ2JVErc3Vic2NyaXB0c0YnLyUnaXRhbGljR1EldHJ1ZUYnL0YyUSdpdGFsaWNGJ0YxLUY1Ni1RIitGJ0YxRjhGO0Y9Rj9GQUZDRkUvRkhRLDAuMjIyMjIyMmVtRicvRktGWS1GIzYmLUYuNiRRJDU1MEYnRjFGNC1GTTYlUSxhc3NpZ25tZW50c0YnRlBGU0YxRlUtRiM2Ji1GLjYkUSMxMEYnRjFGNC1GTTYlUSpmdW5jdGlvbnNGJ0ZQRlNGMUZVLUYjNiYtRi42JFEkOTA4RidGMUY0LUZNNiVRMG11bHRpcGxpY2F0aW9uc0YnRlBGU0YxRlUtRiM2Ji1GLjYkUSQ2MjJGJ0YxRjQtRk02JVEqYWRkaXRpb25zRidGUEZTRjFGVS1GIzYmLUYuNiRRIjhGJ0YxRjQtRk02JVEqZGl2aXNpb25zRidGUEZTRjFGMQ==">LC5JK3N1YnNjcmlwdHNHNiIiJFMjSSxhc3NpZ25tZW50c0dGJCIkXSZJKmZ1bmN0aW9uc0dGJCIjNUkwbXVsdGlwbGljYXRpb25zR0YkIiQzKkkqYWRkaXRpb25zR0YkIiRBJ0kqZGl2aXNpb25zR0YkIiIp</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYuLUYjNiYtSSNtbkdGJDYkUSQyNDBGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYtUTEmSW52aXNpYmxlVGltZXM7RidGMS8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGOi8lKXN0cmV0Y2h5R0Y6LyUqc3ltbWV0cmljR0Y6LyUobGFyZ2VvcEdGOi8lLm1vdmFibGVsaW1pdHNHRjovJSdhY2NlbnRHRjovJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZJLUkjbWlHRiQ2JVErc3Vic2NyaXB0c0YnLyUnaXRhbGljR1EldHJ1ZUYnL0YyUSdpdGFsaWNGJ0YxLUY1Ni1RIitGJ0YxRjhGO0Y9Rj9GQUZDRkUvRkhRLDAuMjIyMjIyMmVtRicvRktGWS1GIzYmLUYuNiRRJDU1MEYnRjFGNC1GTTYlUSxhc3NpZ25tZW50c0YnRlBGU0YxRlUtRiM2Ji1GLjYkUSMxMEYnRjFGNC1GTTYlUSpmdW5jdGlvbnNGJ0ZQRlNGMUZVLUYjNiYtRi42JFEkOTA4RidGMUY0LUZNNiVRMG11bHRpcGxpY2F0aW9uc0YnRlBGU0YxRlUtRiM2Ji1GLjYkUSQ2MjJGJ0YxRjQtRk02JVEqYWRkaXRpb25zRidGUEZTRjFGVS1GIzYmLUYuNiRRIjhGJ0YxRjQtRk02JVEqZGl2aXNpb25zRidGUEZTRjFGMQ==">LC4qJiIkUyMiIiJJK3N1YnNjcmlwdHNHNiJGJUYlKiYiJF0mRiVJLGFzc2lnbm1lbnRzR0YnRiVGJSomIiM1RiVJKmZ1bmN0aW9uc0dGJ0YlRiUqJiIkMypGJUkwbXVsdGlwbGljYXRpb25zR0YnRiVGJSomIiRBJ0YlSSphZGRpdGlvbnNHRidGJUYlKiYiIilGJUkqZGl2aXNpb25zR0YnRiVGJQ==</Equation></Text-field>
 </Output>
 <Output>
 <Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">UT8tLS0tZHVyYXRpb246fi40MDd+c2Vjb25kcy0tLS02Ig==</Equation></Text-field>
@@ -454,67 +516,28 @@ Soln := dsolve(numeric, method=lsode[backfull], procedure=pXdot,  maxstep=.001, 
 </Group>
 <Group labelreference="L2436" drawlabel="true">
 <Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal">FileTools[Remove](&quot;rHeel.m&quot;):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
 </Input>
-<Output>
-<Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20(in%20FileTools%3A-Remove)%20failed%20to%20remove%20the%20following%20files%3A%20%5B%22rHeel.m%22%5D" hyperlink="true"><Font style="HyperlinkError">Error, (in FileTools:-Remove) failed to remove the following files: [&quot;rHeel.m&quot;]</Font></Hyperlink></Text-field>
-</Output>
 </Group>
 <Group labelreference="L2435" drawlabel="true">
 <Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal">FileTools[Remove](&quot;RMHeel.m&quot;):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(CodeGeneration);</Text-field>
 </Input>
 <Output>
-<Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20(in%20FileTools%3A-Remove)%20failed%20to%20remove%20the%20following%20files%3A%20%5B%22RMHeel.m%22%5D" hyperlink="true"><Font style="HyperlinkError">Error, (in FileTools:-Remove) failed to remove the following files: [&quot;RMHeel.m&quot;]</Font></Hyperlink></Text-field>
-</Output>
-</Group>
-<Group labelreference="L2515" drawlabel="true">
-<Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal">FileTools[Remove](&quot;rForeFoot.m&quot;):</Text-field>
-</Input>
-<Output>
-<Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20(in%20FileTools%3A-Remove)%20failed%20to%20remove%20the%20following%20files%3A%20%5B%22rForeFoot.m%22%5D" hyperlink="true"><Font style="HyperlinkError">Error, (in FileTools:-Remove) failed to remove the following files: [&quot;rForeFoot.m&quot;]</Font></Hyperlink></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">Ny1JIkNHNiJJJ0NTaGFycEdGJEkoRm9ydHJhbkdGJEkxSW50ZXJtZWRpYXRlQ29kZUdGJEklSmF2YUdGJEkzTGFuZ3VhZ2VEZWZpbml0aW9uR0YkSSdNYXRsYWJHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHRiRJJk5hbWVzR0YkSSVTYXZlR0YkSSpUcmFuc2xhdGVHRiRJLFZpc3VhbEJhc2ljR0Yk</Equation></Text-field>
 </Output>
 </Group>
 <Group labelreference="L2514" drawlabel="true">
-<Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal">FileTools[Remove](&quot;RMForeFoot.m&quot;):</Text-field>
-</Input>
 <Output>
 <Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20(in%20FileTools%3A-Remove)%20failed%20to%20remove%20the%20following%20files%3A%20%5B%22RMForeFoot.m%22%5D" hyperlink="true"><Font style="HyperlinkError">Error, (in FileTools:-Remove) failed to remove the following files: [&quot;RMForeFoot.m&quot;]</Font></Hyperlink></Text-field>
 </Output>
 </Group>
-<Group labelreference="L2513" drawlabel="true">
+<Group labelreference="L2532" drawlabel="true">
 <Input>
 <Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
 </Input>
 </Group>
-<Group labelreference="L49" drawlabel="true">
-<Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal">rHeel      := GetFrameMotion(&quot;r&quot;,&quot;K1b<Font bold="false">&quot;, &quot;mGND&quot;,&quot;mGND&quot;):</Font></Text-field>
-</Input>
-</Group>
-<Group labelreference="L150" drawlabel="true">
-<Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal">RMHeel     := GetFrameMotion(&quot;R&quot;,&quot;<Font bold="false">K1b&quot;, &quot;mGND&quot;,&quot;mGND&quot;):</Font></Text-field>
-</Input>
-</Group>
-<Group labelreference="L2512" drawlabel="true">
-<Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal">rForeFoot  := GetFrameMotion(&quot;r&quot;,&quot;K2com<Font bold="false">&quot;, &quot;mGND&quot;,&quot;mGND&quot;):</Font></Text-field>
-</Input>
-</Group>
-<Group labelreference="L2511" drawlabel="true">
-<Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal">RMForeFoot := GetFrameMotion(&quot;R&quot;,&quot;K2com<Font bold="false">&quot;, &quot;mGND&quot;,&quot;mGND&quot;):</Font></Text-field>
-</Input>
-</Group>
-<Group labelreference="L2510" drawlabel="true">
-<Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
-</Input>
-</Group>
-<Group labelreference="L2482" drawlabel="true">
+<Group labelreference="L2542" drawlabel="true">
 <Input>
 <Text-field prompt="&gt; " style="Maple Input" layout="Normal">varSubs := [vx(t)=vx, vy(t)=vy, vz(t)=vz, diff(theta(t), t)=dth, wx(t)=wx, wy(t)=wy, wz(t)=wz, x(t)=x, y(t)=y, z(t)=z, theta(t)=th, zeta(t)=zeta, eta(t)=eta, xi(t)=xi];</Text-field>
 </Input>
@@ -522,13 +545,124 @@ Soln := dsolve(numeric, method=lsode[backfull], procedure=pXdot,  maxstep=.001, 
 <Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEodmFyU3Vic0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSShtZmVuY2VkR0YkNiYtRiM2QC1GIzYoLUYjNigtRiw2JVEjdnhGJ0YvRjItRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmluLUZQNiQtRiM2Ji1GLDYlUSJ0RidGL0YyLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lK2JhY2tncm91bmRHUS5bMjU1LDI1NSwyNTVdRidGOUY5RmJvRmVvRjktRjY2LVEiPUYnRjlGO0Y+RkBGQkZERkZGSEZKRk1GWEZib0Zlb0Y5LUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkhGaG4vRk5RLDAuMzMzMzMzM2VtRictRiM2KC1GIzYoLUYsNiVRI3Z5RidGL0YyRmVuRltvRmJvRmVvRjlGaG9GZXBGYm9GZW9GOUZbcC1GIzYoLUYjNigtRiw2JVEjdnpGJ0YvRjJGZW5GW29GYm9GZW9GOUZob0ZccUZib0Zlb0Y5RltwLUYjNigtRiM2KC1JJm1mcmFjR0YkNigtRiM2Ji1GNjYtUTAmRGlmZmVyZW50aWFsRDtGJ0Y5RjtGPkZARkJGREZGRkhGaG5Gam5GYm9GZW9GOS1GIzYmLUYjNidGaHFGX29GYm9GZW9GOUZib0Zlb0Y5LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zkci8lKWJldmVsbGVkR0Y9LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkhGaG5Gam4tRiM2KC1GLDYlUScmIzk1MjtGJy9GMEY9RjlGZW5GW29GYm9GZW9GOUZib0Zlb0Y5RmhvLUYsNiVRJGR0aEYnRi9GMkZib0Zlb0Y5RltwLUYjNigtRiM2KC1GLDYlUSN3eEYnRi9GMkZlbkZbb0Zib0Zlb0Y5RmhvRmlzRmJvRmVvRjlGW3AtRiM2KC1GIzYoLUYsNiVRI3d5RidGL0YyRmVuRltvRmJvRmVvRjlGaG9GYHRGYm9GZW9GOUZbcC1GIzYoLUYjNigtRiw2JVEjd3pGJ0YvRjJGZW5GW29GYm9GZW9GOUZob0ZndEZib0Zlb0Y5RltwLUYjNigtRiM2KC1GLDYlUSJ4RidGL0YyRmVuRltvRmJvRmVvRjlGaG9GXnVGYm9GZW9GOUZbcC1GIzYoLUYjNigtRiw2JVEieUYnRi9GMkZlbkZbb0Zib0Zlb0Y5RmhvRmV1RmJvRmVvRjlGW3AtRiM2KC1GIzYoLUYsNiVRInpGJ0YvRjJGZW5GW29GYm9GZW9GOUZob0ZcdkZib0Zlb0Y5RltwLUYjNihGXHNGaG8tRiw2JVEjdGhGJ0YvRjJGYm9GZW9GOUZbcC1GIzYoLUYjNigtRiw2JVEnJiM5NTA7RidGYXNGOUZlbkZbb0Zib0Zlb0Y5RmhvRmh2RmJvRmVvRjlGW3AtRiM2KC1GIzYoLUYsNiVRJyYjOTUxO0YnRmFzRjlGZW5GW29GYm9GZW9GOUZob0Zfd0Zib0Zlb0Y5RltwLUYjNigtRiM2KC1GLDYlUScmIzk1ODtGJ0Zhc0Y5RmVuRltvRmJvRmVvRjlGaG9GZndGYm9GZW9GOUZib0Zlb0Y5RjkvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGYm9GZW9GOQ==">NzAvLUkjdnhHNiI2I0kidEdGJkYlLy1JI3Z5R0YmRidGKy8tSSN2ekdGJkYnRi4vLUklZGlmZkclKnByb3RlY3RlZEc2JC1JJnRoZXRhR0YmRidGKEkkZHRoR0YmLy1JI3d4R0YmRidGOS8tSSN3eUdGJkYnRjwvLUkjd3pHRiZGJ0Y/Ly1JInhHRiZGJ0ZCLy1JInlHRiZGJ0ZFLy1JInpHRiZGJ0ZIL0Y0SSN0aEdGJi8tSSV6ZXRhR0YmRidGTS8tSSRldGFHRiZGJ0ZQLy1JI3hpR0YmRidGUw==</Equation></Text-field>
 </Output>
 </Group>
-<Group labelreference="L2481" drawlabel="true">
+<Group labelreference="L2541" drawlabel="true">
 <Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs(varSubs,RMHeel);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L2531" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">rAnkleEQ     := Matlab(subs(varSubs,simplify(GetFrameMotion(&quot;r&quot;,  &quot;K1a<Font bold="false">&quot;, &quot;mGND&quot;,&quot;mGND&quot;)</Font>)), output=string,defaulttype=numeric, optimize=true,   resultname = &quot;rAnkle&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2530" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">RMAnkleEQ    := Matlab(subs(varSubs,simplify(GetFrameMotion(&quot;R&quot;,  &quot;K1a<Font bold="false">&quot;, &quot;mGND&quot;,&quot;mGND&quot;)</Font>)), output=string,defaulttype=numeric, optimize=true,    resultname = &quot;RMAnkle&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2534" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">rK1comEQ     := Matlab(subs(varSubs,simplify(GetFrameMotion(&quot;r&quot;,  &quot;K1com<Font bold="false">&quot;, &quot;mGND&quot;,&quot;mGND&quot;))</Font>), output=string,defaulttype=numeric, optimize=true, resultname = &quot;rK1com&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2533" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">RMK1comEQ    := Matlab(subs(varSubs,simplify(GetFrameMotion(&quot;R&quot;,  &quot;K1com<Font bold="false">&quot;, &quot;mGND&quot;,&quot;mGND&quot;)</Font>)), output=string,defaulttype=numeric, optimize=true, resultname = &quot;RMK1com&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2535" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">rK1cEQ       := Matlab(subs(varSubs,simplify(GetFrameMotion(&quot;r&quot;,  &quot;K1c<Font bold="false">&quot;, &quot;mGND&quot;,&quot;mGND&quot;)</Font>)) , output=string,defaulttype=numeric, optimize=true,  resultname = &quot;rK1c&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2536" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">RMK1cEQ      := Matlab(subs(varSubs,simplify(GetFrameMotion(&quot;R&quot;,  &quot;K1c&quot;,&quot;mGND&quot;,&quot;mGND&quot;))),   output=string,defaulttype=numeric, optimize=true,  resultname = &quot;RMK1c&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2539" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">rK2comEQ     := Matlab(subs(varSubs,simplify(GetFrameMotion(&quot;r&quot;,  &quot;K2com<Font bold="false">&quot;, &quot;mGND&quot;,&quot;mGND&quot;)</Font>)), output=string,defaulttype=numeric, optimize=true,  resultname = &quot;rK2com&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2540" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">RMK2comEQ    := Matlab(subs(varSubs,simplify(GetFrameMotion(&quot;R&quot;,  &quot;K2com<Font bold="false">&quot;, &quot;mGND&quot;,&quot;mGND&quot;)</Font>)), output=string,defaulttype=numeric, optimize=true,  resultname = &quot;RMK2com&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2538" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L49" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">rHeelEQ      := Matlab(subs(varSubs,simplify(GetFrameMotion(&quot;r&quot;,  &quot;K1b<Font bold="false">&quot;, &quot;mGND&quot;,&quot;mGND&quot;)</Font>)), output=string,defaulttype=numeric, optimize=true,  resultname = &quot;rHeel&quot;): </Text-field>
+</Input>
+</Group>
+<Group labelreference="L150" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">RMHeelEQ     := Matlab(subs(varSubs,simplify(GetFrameMotion(&quot;R&quot;,  &quot;<Font bold="false">K1b&quot;, &quot;mGND&quot;,&quot;mGND&quot;)</Font>)), output=string,defaulttype=numeric, optimize=true,  resultname = &quot;RMHeel&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2512" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">rForeFootEQ  := Matlab(subs(varSubs,simplify(GetFrameMotion(&quot;r&quot;,  &quot;K2com<Font bold="false">&quot;, &quot;mGND&quot;,&quot;mGND&quot;)</Font>)), output=string,defaulttype=numeric, optimize=true,  resultname = &quot;rForeFoot&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2511" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">RMForeFootEQ := Matlab(subs(varSubs,simplify(GetFrameMotion(&quot;R&quot;,  &quot;K2com<Font bold="false">&quot;, &quot;mGND&quot;,&quot;mGND&quot;)))</Font>, output=string,defaulttype=numeric, optimize=true,  resultname = &quot;RMForeFoot&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2551" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L2550" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L2549" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L2546" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">FileTools[Remove](&quot;calcPosVecsRotMatrices.m&quot;);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2545" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">FileTools[Text][WriteLine](&quot;calcPosVecsRotMatrices.m&quot;, 
+ rAnkleEQ, RMAnkleEQ, 
+ rK1comEQ, RMK1comEQ,
+ rK1cEQ,   RMK1cEQ,
+ rK2comEQ, RMK2comEQ,
+ rHeelEQ,  RMHeelEQ,
+ rForeFootEQ, RMForeFootEQ);</Text-field>
 </Input>
 <Output>
-<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWFjdGlvbkc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkobWZlbmNlZEdGJDYoLUklbXJvd0dGJDYmLUknbXRhYmxlR0YkNjctSSRtdHJHRiQ2KC1JJG10ZEdGJDYoLUYvNigtRi82KC1GLzYoLUkjbWlHRiQ2JVEkY29zRicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RMCZBcHBseUZ1bmN0aW9uO0YnRkcvJSZmZW5jZUdGRi8lKnNlcGFyYXRvckdGRi8lKXN0cmV0Y2h5R0ZGLyUqc3ltbWV0cmljR0ZGLyUobGFyZ2VvcEdGRi8lLm1vdmFibGVsaW1pdHNHRkYvJSdhY2NlbnRHRkYvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0Zobi1GLDYkLUYvNiYtRkE2JVEnJiM5NTg7RidGREZHLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lK2JhY2tncm91bmRHUS5bMjU1LDI1NSwyNTVdRidGR0ZHRmJvRmVvRkctRks2LVExJkludmlzaWJsZVRpbWVzO0YnRkdGTkZQRlJGVEZWRlhGWkZmbkZpbi1GLzYoRkBGSi1GLDYkLUYvNiYtRkE2JVEnJiM5NTE7RidGREZHRmJvRmVvRkdGR0Zib0Zlb0ZHRmhvLUYvNihGQEZKLUYsNiQtRi82Ji1GQTYlUSZLMWJyeUYnL0ZFUSV0cnVlRicvRkhRJ2l0YWxpY0YnRmJvRmVvRkdGR0Zib0Zlb0ZHRkctRks2LVEoJm1pbnVzO0YnRkdGTkZQRlJGVEZWRlhGWi9GZ25RLDAuMjIyMjIyMmVtRicvRmpuRmVxLUYvNiotRi82KC1GQTYlUSRzaW5GJ0ZERkdGSkZbb0Zib0Zlb0ZHRmhvRltwRmhvLUYvNihGW3JGSkZmcEZib0Zlb0ZHRmhvLUYvNihGW3JGSi1GLDYkLUYvNiYtRkE2JVEmSzFicnhGJ0ZdcUZfcUZib0Zlb0ZHRkdGYm9GZW9GR0ZHRmFxLUYvNigtRi82KEZbckZKRl1wRmJvRmVvRkdGaG9GXnJGaG8tRi82KEZARkpGYnJGYm9GZW9GR0ZHRkcvJSlyb3dhbGlnbkdRIUYnLyUsY29sdW1uYWxpZ25HRmFzLyUrZ3JvdXBhbGlnbkdGYXMvJShyb3dzcGFuR1EiMUYnLyUrY29sdW1uc3BhbkdGaHMtRjg2KC1GLzYoLUYvNiYtRiw2JC1GLzYmLUYvNihGPkZob0Zbc0Zoby1GLzYoRltyRkotRiw2JC1GLzYmLUZBNiVRJyYjOTUwO0YnRkRGR0Zib0Zlb0ZHRkdGYm9GZW9GR0ZHLUZLNi1RIitGJ0ZHRk5GUEZSRlRGVkZYRlpGZHFGZnEtRi82JkZpcUZoby1GLzYoRkBGSkZpdEZib0Zlb0ZHRkdGR0ZHRmhvRmRwRkdGYHUtRi82KC1GLDYkLUYvNictRks2LVEqJnVtaW51czA7RidGR0ZORlBGUkZURlZGWEZaRmRxRmZxLUYvNihGaXFGaG9GW3NGaG9GZ3RGR0ZgdS1GLzYmRj5GaG9GZXVGR0ZHRkdGaG9GXnJGaG9GYHJGR0ZgdS1GLzYqRltwRmhvRmd0RmhvRl5yRmhvRl1zRkdGR0Zfc0Zic0Zkc0Zmc0Zpcy1GODYoLUYvNigtRi82Ji1GLDYkLUYvNidGXXYtRi82KEY+RmhvRltzRmhvRmV1RkdGYHUtRi82JkZpcUZob0ZndEZHRkdGR0Zob0ZkcEZHRmB1LUYvNigtRiw2JC1GLzYmLUYvNihGaXFGaG9GW3NGaG9GZXVGR0ZgdS1GLzYmRj5GaG9GZ3RGR0ZHRkdGaG9GXnJGaG9GYHJGR0ZhcS1GLzYqRltwRmhvRmV1RmhvRl5yRmhvRl1zRkdGR0Zfc0Zic0Zkc0Zmc0Zpc0Zfc0Zic0Zkcy1GNTYoLUY4NigtRi82J0Zddi1GLzYoRmlxRmhvRltwRmhvRl1zRkdGYHUtRi82JkZbc0Zob0ZgckZHRkdGX3NGYnNGZHNGZnNGaXMtRjg2KC1GLzYmLUYvNiZGaXVGaG9GXXNGR0ZhcS1GLzYoRltwRmhvRmd0RmhvRmByRkdGR0Zfc0Zic0Zkc0Zmc0Zpcy1GODYoLUYvNiYtRi82JkZmd0Zob0Zdc0ZHRmB1LUYvNihGW3BGaG9GZXVGaG9GYHJGR0ZHRl9zRmJzRmRzRmZzRmlzRl9zRmJzRmRzLUY1NigtRjg2KC1GLzYoLUYvNihGPkZob0ZbcEZob0ZeckZHRmB1LUYvNipGaXFGaG9GW3BGaG9GZHBGaG9GYHJGR0ZgdS1GLzYoRltzRmhvRmRwRmhvRl1zRkdGR0Zfc0Zic0Zkc0Zmc0Zpcy1GODYoLUYvNigtRi82JkZhdEZob0ZeckZHRmFxLUYvNihGaXVGaG9GZHBGaG9GYHJGR0ZhcS1GLzYqRltwRmhvRmd0RmhvRmRwRmhvRl1zRkdGR0Zfc0Zic0Zkc0Zmc0Zpcy1GODYoLUYvNigtRi82JkZcd0Zob0ZeckZHRmFxLUYvNihGZndGaG9GZHBGaG9GYHJGR0ZgdS1GLzYqRltwRmhvRmV1RmhvRmRwRmhvRl1zRkdGR0Zfc0Zic0Zkc0Zmc0Zpc0Zfc0Zic0Zkcy8lJmFsaWduR1ElYXhpc0YnL0Zgc1EpYmFzZWxpbmVGJy9GY3NRJ2NlbnRlckYnL0Zlc1EnfGZybGVmdHxockYnLyUvYWxpZ25tZW50c2NvcGVHRl5xLyUsY29sdW1ud2lkdGhHUSVhdXRvRicvJSZ3aWR0aEdGZ1xsLyUrcm93c3BhY2luZ0dRJjEuMGV4RicvJS5jb2x1bW5zcGFjaW5nR1EmMC44ZW1GJy8lKXJvd2xpbmVzR1Elbm9uZUYnLyUsY29sdW1ubGluZXNHRmJdbC8lJmZyYW1lR0ZiXWwvJS1mcmFtZXNwYWNpbmdHUSwwLjRlbX4wLjVleEYnLyUqZXF1YWxyb3dzR0ZGLyUtZXF1YWxjb2x1bW5zR0ZGLyUtZGlzcGxheXN0eWxlR0ZGLyUlc2lkZUdRJnJpZ2h0RicvJTBtaW5sYWJlbHNwYWNpbmdHRl9dbEZib0Zlb0ZHRkcvSSttc2VtYW50aWNzR0YkUSdNYXRyaXhGJy8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0ZlXmwvJSthY3Rpb250eXBlR1EucnRhYmxlYWRkcmVzc0YnLyUpcnRhYmxlaWRHUTUxODQ0Njc0NDA3MzkwMjQ0NzQyMkYn">LUknTWF0cml4RzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiNiMvSSQlaWRHRiciNUF1Vy1SMlduVz0=</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiVFWw==</Equation></Text-field>
 </Output>
+</Group>
+<Group labelreference="L2544" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">FileTools[Text][Close](&quot;calcPosVecsRotMatrices.m&quot;);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2482" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L2481" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
 </Group>
 <Group labelreference="L2480" drawlabel="true">
 <Input>
@@ -537,110 +671,45 @@ Soln := dsolve(numeric, method=lsode[backfull], procedure=pXdot,  maxstep=.001, 
 </Group>
 <Group labelreference="L2385" drawlabel="true">
 <Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(CodeGeneration);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
 </Input>
 <Output>
-<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">Ny1JIkNHNiJJJ0NTaGFycEdGJEkoRm9ydHJhbkdGJEkxSW50ZXJtZWRpYXRlQ29kZUdGJEklSmF2YUdGJEkzTGFuZ3VhZ2VEZWZpbml0aW9uR0YkSSdNYXRsYWJHRiRJJk5hbWVzR0YkSSVTYXZlR0YkSSpUcmFuc2xhdGVHRiRJLFZpc3VhbEJhc2ljR0Yk</Equation></Text-field>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">Ny1JIkNHNiJJJ0NTaGFycEdGJEkoRm9ydHJhbkdGJEkxSW50ZXJtZWRpYXRlQ29kZUdGJEklSmF2YUdGJEkzTGFuZ3VhZ2VEZWZpbml0aW9uR0YkSSdNYXRsYWJHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHRiRJJk5hbWVzR0YkSSVTYXZlR0YkSSpUcmFuc2xhdGVHRiRJLFZpc3VhbEJhc2ljR0Yk</Equation></Text-field>
 </Output>
 </Group>
 <Group labelreference="L2438" drawlabel="true">
 <Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">FileTools[Remove](&quot;aniEqns.m&quot;):</Text-field>
 </Input>
+<Output>
+<Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20(in%20FileTools%3A-Remove)%20failed%20to%20remove%20the%20following%20files%3A%20%5B%22aniEqns.m%22%5D" hyperlink="true"><Font style="HyperlinkError">Error, (in FileTools:-Remove) failed to remove the following files: [&quot;aniEqns.m&quot;]</Font></Hyperlink></Text-field>
+</Output>
 </Group>
 <Group labelreference="L2437" drawlabel="true">
 <Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Matlab(subs(varSubs,rHeel),output=&quot;rHeel.m&quot;,optimize):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Matlab(aniEqns,output=&quot;aniEqns.m&quot;,optimize):</Text-field>
 </Input>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20unable%20to%20optimize" hyperlink="true"><Font style="HyperlinkWarning">Warning, unable to optimize</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20(in%20GenerateExpression)%20cannot%20generate%20_Inert_TABLE" hyperlink="true"><Font style="HyperlinkError">Error, (in GenerateExpression) cannot generate _Inert_TABLE</Font></Hyperlink></Text-field>
+</Output>
 </Group>
 <Group labelreference="L2382" drawlabel="true">
 <Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Matlab(subs(varSubs,RMHeel),output=&quot;RMHeel.m&quot;,optimize):
-</Text-field>
-</Input>
-</Group>
-<Group labelreference="L2518" drawlabel="true">
-<Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Matlab(subs(varSubs,rForeFoot),output=&quot;rForeFoot.m&quot;,optimize):</Text-field>
-</Input>
-</Group>
-<Group labelreference="L2519" drawlabel="true">
-<Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Matlab(subs(varSubs,RMForeFoot),output=&quot;RMForeFoot.m&quot;,optimize):</Text-field>
-</Input>
-</Group>
-<Group labelreference="L2517" drawlabel="true">
-<Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
-</Input>
-</Group>
-<Group labelreference="L2516" drawlabel="true">
-<Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
-</Input>
-</Group>
-<Group labelreference="L2421" drawlabel="true">
-<Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal">FileTools[Remove](&quot;xdot.m&quot;):</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Matlab([rAnkleEQ,RMAnkleEQ],optimize,resultname=RMAnkle);</Text-field>
 </Input>
 <Output>
-<Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20(in%20FileTools%3A-Remove)%20failed%20to%20remove%20the%20following%20files%3A%20%5B%22xdot.m%22%5D" hyperlink="true"><Font style="HyperlinkError">Error, (in FileTools:-Remove) failed to remove the following files: [&quot;xdot.m&quot;]</Font></Hyperlink></Text-field>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20unable%20to%20optimize" hyperlink="true"><Font style="HyperlinkWarning">Warning, unable to optimize</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20(in%20ResolveTypes)%20cannot%20resolve%20types%20in%20%7BCodeGeneration%3A-Names%3A-ArrayType(CodeGeneration%3A-Names%3A-Type(CodeGeneration%3A-Names%3A-untyped),%20CodeGeneration%3A-Names%3A-ArrayRanges(1%20..%203),%20CodeGeneration%3A-Names%3A-" hyperlink="true"><Font style="HyperlinkError">Error, (in ResolveTypes) cannot resolve types in {CodeGeneration:-Names:-ArrayType(CodeGeneration:-Names:-Type(CodeGeneration:-Names:-untyped), CodeGeneration:-Names:-ArrayRanges(1 .. 3), CodeGeneration:-Names:-ArrayOptions(CodeGeneration:-Names:-Equal(CodeGeneration:-Names:-Name(&quot;storage&quot;), CodeGeneration:-Names:-Name(&quot;rectangular&quot;)), CodeGeneration:-Names:-Equal(CodeGeneration:-Names:-Name(&quot;order&quot;), CodeGeneration:-Names:-Name(&quot;Fortran_order&quot;)), CodeGeneration:-Names:-Equal(CodeGeneration:-Names:-Name(&quot;subtype&quot;), CodeGeneration:-Names:-Type(Vector[column])))), CodeGeneration:-Names:-ArrayType(CodeGeneration:-Names:-Type(CodeGeneration:-Nam...</Font></Hyperlink></Text-field>
 </Output>
 </Group>
-<Group labelreference="L2504" drawlabel="true">
+<Group labelreference="L2543" drawlabel="true">
 <Input>
 <Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
 </Input>
-</Group>
-<Group labelreference="L2394" drawlabel="true">
-<Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Matlab(subs(varSubs,pXdot),output=&quot;xdot.m&quot;,optimize);</Text-field>
-</Input>
-<Output>
-<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20the%20function%20names%20%7BGrabnerDiskContact%7D%20are%20not%20recognized%20in%20the%20target%20language" hyperlink="true"><Font style="HyperlinkWarning">Warning, the function names {GrabnerDiskContact} are not recognized in the target language</Font></Hyperlink></Text-field>
-</Output>
-</Group>
-<Group labelreference="L2401" drawlabel="true">
-<Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
-</Input>
-</Group>
-<Group labelreference="L2428" drawlabel="true">
-<Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal">currentdir(&quot;C:/mjhmilla/dev/FussKontact/maple/FussKontactModel/&quot;);</Text-field>
-</Input>
-<Output>
-<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">UVNDOlxtamhtaWxsYVxkZXZcRnVzc0tvbnRhY3RcbWFwbGVcRnVzc0tvbnRhY3RNb2RlbDYi</Equation></Text-field>
-</Output>
-</Group>
-<Group labelreference="L2439" drawlabel="true">
-<Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal">FileTools[Remove](&quot;GrabnerDiskContact.m&quot;):
-read(&quot;GrabnerDiskContact.mpl&quot;);</Text-field>
-</Input>
-<Output>
-<Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20(in%20FileTools%3A-Remove)%20failed%20to%20remove%20the%20following%20files%3A%20%5B%22GrabnerDiskContact.m%22%5D" hyperlink="true"><Font style="HyperlinkError">Error, (in FileTools:-Remove) failed to remove the following files: [&quot;GrabnerDiskContact.m&quot;]</Font></Hyperlink></Text-field>
-</Output>
-</Group>
-<Group labelreference="L2414" drawlabel="true">
-<Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Matlab(GrabnerDiskContact,output=&quot;GrabnerDiskContact.m&quot;);</Text-field>
-</Input>
-</Group>
-<Group labelreference="L2402" drawlabel="true">
-<Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal">C(GrabnerDiskContact,output=&quot;GrabnerDiskContact.c&quot;);</Text-field>
-</Input>
-</Group>
-<Group labelreference="L2403" drawlabel="true">
-<Input>
-<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
-</Input>
-</Group>
-<Group labelreference="L133" drawlabel="true">
-<Input>
-<Text-field style="Text" bold="true" layout="Normal"><Font bold="true">References:</Font></Text-field>
-<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">[1] Y. Gonthier, J. McPhee, C. Lange, and J-C. Piedb\305\223uf, &quot;A Regularized Contact Model with Asymmetric Damping and Dwell-Time Dependent Friction&quot;, </Font><Font italic="true">Multibody System Dynamics</Font>, <Font bold="true">11</Font>:  209-233, 2004.</Text-field>
-</Input>
-</Group><RTable handle="8446744073902479470">TTdSMApJQVJUQUJMRV9TQVZFLzE4NDQ2NzQ0MDczOTAyNDc5NDcwWColKWFueXRoaW5nRzYiRiVbZ2whIyUhISEiKCIoLSUieEc2IyUidEctJSJ5R0YoLSUiekdGKC0lJnRoZXRhR0YoLSUlemV0YUdGKC0lJGV0YUdGKC0lI3hpR0YoRiU=</RTable><RTable handle="8446744073902479830">TTdSMApJQVJUQUJMRV9TQVZFLzE4NDQ2NzQ0MDczOTAyNDc5ODMwWColKWFueXRoaW5nRzYiRiVbZ2whIyUhISEiKCIoLSUjdnhHNiMlInRHLSUjdnlHRigtJSN2ekdGKC0lJWRpZmZHNiQtJSZ0aGV0YUdGKEYpLSUjd3hHRigtJSN3eUdGKC0lI3d6R0YoRiU=</RTable><RTable handle="8446744073902479950">TTdSMApJQVJUQUJMRV9TQVZFLzE4NDQ2NzQ0MDczOTAyNDc5OTUwWColKWFueXRoaW5nRzYiRiVbZ2whIyUhISEiKCIoLSUlZGlmZkc2JC0lI3Z4RzYjJSJ0R0YsLUYnNiQtJSN2eUdGK0YsLUYnNiQtJSN2ekdGK0YsLUYnNiQtRic2JC0lJnRoZXRhR0YrRixGLC1GJzYkLSUjd3hHRitGLC1GJzYkLSUjd3lHRitGLC1GJzYkLSUjd3pHRitGLEYl</RTable><RTable handle="8446744073902447422">TTdSMApJQVJUQUJMRV9TQVZFLzE4NDQ2NzQ0MDczOTAyNDQ3NDIyWCwlKWFueXRoaW5nRzYiRiVbZ2whIiUhISEjKiIkIiQsKCooLUkkY29zRzYkJSpwcm90ZWN0ZWRHJShfc3lzbGliRzYjJSN4aUciIiItRik2IyUkZXRhR0YvLUYpNiMlJksxYnJ5R0YvRi8qKi1JJHNpbkc2JEYrRixGLUYvRjBGLy1GOEY0Ri8tRjg2IyUmSzFicnhHRi8hIiIqKC1GOEYxRi9GOkYvLUYpRjxGL0Y+LCYqKEY3Ri9GMEYvRkFGL0Y+KiZGQEYvRjtGL0YvLCgqKEYoRi9GMEYvRjpGL0YvKipGN0YvRjBGL0YzRi9GO0YvRi8qKEZARi9GM0YvRkFGL0YvLCgqJiwmKihGKEYvRkBGLy1GODYjJSV6ZXRhR0YvRi8qJkY3Ri8tRilGTkYvRi9GL0YzRi9GLyooLCYqKEY3Ri9GQEYvRk1GL0Y+KiZGKEYvRlFGL0YvRi9GOkYvRjtGL0YvKipGMEYvRk1GL0Y6Ri9GQUYvRi8sJiomRlNGL0ZBRi9GLyooRjBGL0ZNRi9GO0YvRj4sKComRktGL0Y6Ri9GLyooRlNGL0YzRi9GO0YvRj4qKkYwRi9GTUYvRjNGL0ZBRi9GPiwoKiYsJiooRihGL0ZARi9GUUYvRj4qJkY3Ri9GTUYvRi9GL0YzRi9GLyooLCYqKEY3Ri9GQEYvRlFGL0YvKiZGKEYvRk1GL0YvRi9GOkYvRjtGL0YvKipGMEYvRlFGL0Y6Ri9GQUYvRj4sJiomRl5vRi9GQUYvRi8qKEYwRi9GUUYvRjtGL0YvLCgqJkZqbkYvRjpGL0YvKihGXm9GL0YzRi9GO0YvRj4qKkYwRi9GUUYvRjNGL0ZBRi9GL0Yl</RTable>
+</Group><RTable handle="8446744073911851118">TTdSMApJQVJUQUJMRV9TQVZFLzE4NDQ2NzQ0MDczOTExODUxMTE4WColKWFueXRoaW5nRzYiRiVbZ2whIyUhISEiKCIoLSUieEc2IyUidEctJSJ5R0YoLSUiekdGKC0lJnRoZXRhR0YoLSUlemV0YUdGKC0lJGV0YUdGKC0lI3hpR0YoRiU=</RTable><RTable handle="8446744073911851478">TTdSMApJQVJUQUJMRV9TQVZFLzE4NDQ2NzQ0MDczOTExODUxNDc4WColKWFueXRoaW5nRzYiRiVbZ2whIyUhISEiKCIoLSUjdnhHNiMlInRHLSUjdnlHRigtJSN2ekdGKC0lJWRpZmZHNiQtJSZ0aGV0YUdGKEYpLSUjd3hHRigtJSN3eUdGKC0lI3d6R0YoRiU=</RTable><RTable handle="8446744073911851598">TTdSMApJQVJUQUJMRV9TQVZFLzE4NDQ2NzQ0MDczOTExODUxNTk4WColKWFueXRoaW5nRzYiRiVbZ2whIyUhISEiKCIoLSUlZGlmZkc2JC0lI3Z4RzYjJSJ0R0YsLUYnNiQtJSN2eUdGK0YsLUYnNiQtJSN2ekdGK0YsLUYnNiQtRic2JC0lJnRoZXRhR0YrRixGLC1GJzYkLSUjd3hHRitGLC1GJzYkLSUjd3lHRitGLC1GJzYkLSUjd3pHRitGLEYl</RTable>
 </Worksheet>

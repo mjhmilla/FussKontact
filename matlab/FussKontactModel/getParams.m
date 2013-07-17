@@ -15,18 +15,18 @@ K1by = -.36e-1;
 K1bz = -.41e-1;
 K1cx = 0;
 K1cy = .72e-1;
-K1cz = -.31e-1;
-K1crz = .392699081698724139;
+K1cz = -.41e-1;
+K1crz =0;
 K2ax = 0;
 K2ay = 0;
-K2az = .1e-1;
+K2az = 0;
 aF = 20;
 aH = 20;
-cF = 1;
-cH = 1;
+cF = 1.0;
+cH = 1.0;
 dyVel = .1;
-kF = 10000;
-kH = 10000;
+kF = 1000;
+kH = 1000;
 m1 = .75;
 m2 = .25;
 mud = .7;
@@ -38,7 +38,7 @@ pF = 1;
 pH = 1;
 rF = .5e-1;
 rH = .4e-1;
-stVel = .1e-1;
+stVel = .5e-1;
 sx = 0;
 sy = 0;
 sz = 0;
@@ -50,8 +50,9 @@ t2y = 1;
 t2z = 0;
 
 
-vParams = [G,Jxx1,Jxx2,Jyy1, ...
-             Jyy2,Jzz1,Jzz2,...
+vParams = [G,Jxx1,Jxx2,...
+             Jyy1,Jyy2,...
+             Jzz1,Jzz2,...
              K1ax,K1ay,K1az,...
              K1brx,K1bry,K1bx,K1by,K1bz,...
              K1crz,K1cx,K1cy,K1cz,...

@@ -1,0 +1,33 @@
+#VRML V2.0 utf8
+
+DEF blueDisk Transform {
+    translation 0 0 0    
+    scale 1 1 1
+
+    children [
+        Transform {
+        translation 0 0 0
+        rotation 1 0 0 1.570796326794897
+        scale $1$
+         children [
+          Shape{
+                   appearance Appearance{
+                      material DEF blueDisk Material{
+                          diffuseColor 0.2 0.2 0.4
+                          specularColor 0.2 0.2 0.4
+                          shininess 0.5
+                          transparency 0.0
+                       }
+                    }
+
+                    geometry Cylinder {
+                        radius 1
+                        height 0.02
+                    }
+                }
+
+            ]
+        }
+
+    ]
+}
