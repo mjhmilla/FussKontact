@@ -1,3 +1,5 @@
+function vInputs = getInputs()
+
 Fx = 0;
 Fy = 0;
 Fz = 0;

@@ -2,7 +2,7 @@ function success = postprocess(tsol, xsol, contactInfo, vInput, aniFreq)
 
 success = 0;
 
-getParams;
+paramList;
 
 t0 = tsol(1);
 t1 = tsol(length(tsol));
@@ -138,8 +138,8 @@ v1 = ones(size(tani));
 v0 = zeros(size(tani));
 
 thX = pi/2;
-thY = pi/2;
-thZ = pi/2;
+thY = -pi/2;
+thZ = -pi/2;
 
 rX = [1 0 0; 0 cos(thX) -sin(thX); 0 sin(thX) cos(thX)];
 rY = [cos(thY) 0 sin(thY); 0 1 0; -sin(thY) 0 cos(thY)];
@@ -147,7 +147,7 @@ rZ = [cos(thZ) -sin(thZ) 0; sin(thZ) cos(thZ) 0; 0 0 1];
 
 RM = rY*rZ;
 
-camera = [tani v1.*(0.5) v0 v1.*0.05...
+camera = [tani -v1.*(0.5) v0 v1.*0.05...
                RM(1,1).*v1 RM(1,2).*v1 RM(1,3).*v1...
                RM(2,1).*v1 RM(2,2).*v1 RM(2,3).*v1...
                RM(3,1).*v1 RM(3,2).*v1 RM(3,3).*v1];

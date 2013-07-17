@@ -9,16 +9,11 @@ aniFreq = 100;
 % Setup parameters
 %%
 disp('1. Preprocessing');
-getParams; %vParams
-getInputs; %vInputs
-getIC;     %vIC
+vParams = getParams();
+vInputs = getInputs(); 
+vIC = getIC(['data/Walking01.mat']);    
 vToe = [50, 0.5]; %Stiffness & damping at the nonlinear toe joint
 t0 = 0;
-
-
-%%
-%Setup for a simulation
-%%
 
 %anonomous function
 xdotAFunc = @(t,x) calcXdot(t,x,vParams,vToe);
