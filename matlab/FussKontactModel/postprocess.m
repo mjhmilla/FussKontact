@@ -1,4 +1,4 @@
-function success = postprocess(tsol, xsol, contactInfo, vInput, aniFreq)
+function success = postprocess(tsol, xsol, contactInfo, vInput, aniFreq, expData)
 
 success = 0;
 
@@ -137,6 +137,10 @@ dlmwrite('animation/foreDisk.fr',[rF rF rF],' ');
 v1 = ones(size(tani));
 v0 = zeros(size(tani));
 
+dlmwrite('animation/origin.dat',...
+    [tani v0 v0 v0 v1 v0 v0 v0 v1 v0 v0 v0 v1],...
+    '\t');
+
 thX = pi/2;
 thY = -pi/2;
 thZ = -pi/2;
@@ -154,10 +158,67 @@ camera = [tani -v1.*(0.5) v0 v1.*0.05...
 dlmwrite('animation/camera.dat',camera,'\t');
 
 %%
+% If the experimental data structure is not empty, then
+%   1. Animate experimental ankle frame
+%   2. Positions of the markers
+%   3. Force vector
+%
+%  But, all in grey
+%
+%%
+if(isempty(expData) ~= 1)
+    %resample data
+    expAk = zeros(length(tani),3);
+    expAkR= zeros(length(tani),9);
+    
+    expGRF = zeros(length(tani),3);
+    expCOP = zeros(length(tani),3);    
+    expMkr = zeros(14,3,length(tani));
+
+    
+    v1 = ones(length(tani),1);
+    v0 = zeros(length(tani),1);
+    
+    RI = [v1 v0 v0 v0 v1 v0 v0 v0 v1];
+    
+    for i=1:1:3
+        expAk(:,i) = interp1(expData.time, expData.heel.xyz(:,i), tani);
+        expGRF(:,i)= interp1(expData.time, expData.grf(:,i), tani);
+        expCOP(:,i)= interp1(expData.time, expData.cop(:,i), tani);
+        for j=1:1:14
+           tmp = reshape(expData.mkrs(j,i,:),length(expData.time),1);
+           expMkr(j,i,:) = interp1(expData.time,tmp,tani);
+        end
+    end
+    
+    for i=1:1:9
+       expAkR(:,i) = interp1(expData.time, expData.heel.R(:,i), tani); 
+    end
+    
+    dlmwrite('animation/expAnkle.dat', [tani expAk expAkR],'\t');
+    dlmwrite('animation/expGRF.dat',[tani expCOP expGRF v0 v0 v0],'\t');
+    
+    for i=1:1:14
+       xtmp = reshape(expMkr(i,1,:), length(tani),1);
+       ytmp = reshape(expMkr(i,2,:), length(tani),1);
+       ztmp = reshape(expMkr(i,3,:), length(tani),1);
+       
+       dlmwrite(['animation/mkr',num2str(i),'.dat'],...
+                [tani xtmp ytmp ztmp RI], '\t');
+    end
+    
+end
+%%
 %compile it
 %%
-%cd('animation');
-%dos('compileWRL.bat');
-%cd ..
+cd('animation');
+if(isempty(expData) ~= 1)
+    dos('compileFootMdlExp.bat');
+    dos('compileFootMdl.bat');
+else
+    dos('compileFootMdl.bat');
+end
+
+cd ..
 
 success = 1;

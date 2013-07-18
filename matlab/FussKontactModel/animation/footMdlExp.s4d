@@ -1,0 +1,44 @@
+<timeScaling>,1
+<downSampling>,1
+<backgroundColour>,<R0.9 G0.9 B0.9> 
+<lightDirection>, <X0.5 Y0.5 Z-1>
+<bodyGEO>,<bodiesMOV>
+    expLocalAxis.wrl,expAnkle.dat
+    localAxis.wrl,anklePosOri.dat
+    localAxis.wrl,origin.dat
+    ballred.wrl,k1PosOri.dat
+    ballred.wrl,k2PosOri.dat
+    ballblue.wrl,metaJointPosOri.dat
+    foreDisk.wrl,foreDiskPosOri.dat
+    heelDisk.wrl,heelDiskPosOri.dat
+    expBall.wrl,mkr1.dat
+    expBall.wrl,mkr2.dat
+    expBall.wrl,mkr3.dat
+    expBall.wrl,mkr4.dat
+    expBall.wrl,mkr5.dat
+    expBall.wrl,mkr6.dat
+    expBall.wrl,mkr7.dat
+    expBall.wrl,mkr8.dat
+    expBall.wrl,mkr9.dat
+    expBall.wrl,mkr10.dat
+    expBall.wrl,mkr11.dat
+    expBall.wrl,mkr12.dat
+    expBall.wrl,mkr13.dat
+    expBall.wrl,mkr14.dat        
+<\bodyGEO>,<\bodiesMOV>
+<forceTorque>,<genForceTorquePlots> normF=1000.0 normT=1000.0 normD=0.50 
+    heelForceTorque.dat, <f0 w0 c0 R0.0 G0.0 B0.5 T0.5> <t0 w1 c1 R1.0 G0.5 B0.0 T0.5>
+    foreForceTorque.dat, <f0 w0 c0 R0.0 G0.0 B0.5 T0.5> <t0 w1 c1 R1.0 G0.5 B0.0 T0.5>
+    expGRF.dat, <f0 w0 c1 R0.5 G0.5 B0.5 T0.5> <t0 w1 c1 R1.0 G0.5 B0.0 T0.5>
+<\forceTorque>,<\genForcePlots>,<\genTorquePlots>
+<camera>
+	camera.dat
+<\camera>
+<markers>
+  floorMarkers.txt,	<box     x0.46355 y0.508 z0.01 	R0.6 G0.6 B0.8 T0.5> 		
+<\markers>
+
+
+
+
+
