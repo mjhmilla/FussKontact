@@ -69,13 +69,13 @@ if(flag_mode == 2)
     
     %disp( sum(errPos.*errPos));
     
-    kPosVel = [1e-1 0  0   0   0 0 0;...
+    kPos = [1e-1 0  0   0   0 0 0;...
              0 1e-1 0   0   0 0 0;...
              0 0  1e-1  0   0 0 0;...
              0 0  0   1e-3   0 0 0;...
              0 0  0   0   1e-3 0 0;...
              0 0  0   0   0 1e-3 0;...
-             0 0  0   0   0 0 1e-1].*10; %In Mz entry: 1e-3
+             0 0  0   0   0 0 1e-3].*10;
     
 %     kVel = [1 0  0   0   0 0 0;...
 %              0 1 0   0   0 0 0;...
@@ -85,8 +85,8 @@ if(flag_mode == 2)
 %              0 0  0   0   0 1e-1 0;...
 %              0 0  0   0   0 0 1e-1].*10;
 
-    tmpPOS = kPosVel*errPos;
-    tmpVEL = kPosVel*errVel;
+    tmpPOS = kPos*errPos;
+    tmpVEL = kVel*errVel;
     posTRACKING = [tmpPOS(1:3); tmpPOS(5:7)];
     velTRACKING = [tmpVEL(1:3); tmpVEL(5:7)];
     
@@ -119,12 +119,12 @@ if(flag_mode == 2)
     
     
     fbWRENCH = zeros(6,1);
-    fbWRENCH(1) = -0.1*errV(1);    
-    fbWRENCH(2) = -0.1*errV(2);    
+    fbWRENCH(1) = -0*errV(1);    
+    fbWRENCH(2) = -0*errV(2);    
     fbWRENCH(3) = -50*errV(3);     
-    fbWRENCH(4) = 10*errV(4);
-    fbWRENCH(5) = 10*errV(5);
-    fbWRENCH(6) = 10*errV(6);
+    fbWRENCH(4) = 50*errV(4);
+    fbWRENCH(5) = 50*errV(5);
+    fbWRENCH(6) = 0*errV(6);
     
     
     %fbWRENCH = zeros(size(fbWRENCH));
@@ -140,28 +140,24 @@ if(flag_mode == 2)
             0 0 0 0 5 0;...
             0 0 0 0 0 5];
 
-    dampWRENCH = -damp*vel.*(1);    
+    dampWRENCH = -damp*vel.*(4);    
 
     %%
     %Enable or disable components
     %%
 
-    s = (expGRF(3)/expData.grfMAXZ)*0.5;
+    s = (expGRF(3)/expData.grfMAXZ);
     
 
-    for i = 1:1:6
-        if(i ~= 5)
-        posTRACKING(i) = posTRACKING(i).*(1-s);
-        velTRACKING(i) = velTRACKING(i).*(1-s);
-        end
-    end
     
+    posTRACKING = posTRACKING.*(1-s);
+    velTRACKING = velTRACKING.*(1-s);
     posToeTRACKING = posToeTRACKING.*(1-s);
     velToeTRACKING = velToeTRACKING.*(1-s);
     
-    expWRENCH = expWRENCH.*(s+0.5);
-    fbWRENCH = fbWRENCH.*(s+0.5);
-    dampWRENCH = dampWRENCH.*(s+0.5);
+    expWRENCH = expWRENCH.*s;
+    fbWRENCH = fbWRENCH.*s;
+    dampWRENCH = dampWRENCH.*s;
     
     
     
@@ -178,7 +174,7 @@ if(flag_mode == 2)
 
     Mtoe = posToeTRACKING + velToeTRACKING;
     
-    vInputs = [FxC,FyC,FzC,MxC,MyC,MzC,TK1cK2a]';
+    vInputs = [FxC,FyC,FzC,MxC,MyC,MzC,0]';
 end
 
 

@@ -225,13 +225,18 @@ double GrabnerDiskContact (
     tmp2[2] = -0.10e1 * tmp2[2];
   }
   tmpf1 = pow(pow(tmp1[0], 0.2e1) + pow(tmp1[1], 0.2e1) + pow(tmp1[2], 0.2e1), 0.5e0);
-  if (tmpf1 < epsRoot)
+  if (tmpf1 < epsRoot){
     tmpf1 = epsRoot;
-  alpha = acos(fabs(nC[0] * nP[0] + nC[1] * nP[1] + nC[2] * nP[2]));
-  radius = r * (0.1e1 - exp(-a * sin(alpha)));
+  }
+  tmpf2 = fabs(nC[0] * nP[0] + nC[1] * nP[1] + nC[2] * nP[2]);
+  if(tmpf2 > 1.0)
+    tmpf2 = 1.0;
+  
+  alpha = acos(tmpf2);
+  radius = r * (0.1e1 - exp(- (a * sin(alpha))) );
   rPMuv[0] = tmp2[0] / tmpf1;
   rPMuv[1] = tmp2[1] / tmpf1;
-  rPMuv[2] = tmp2[2] / tmpf1;
+  rPMuv[2] = tmp2[2] / tmpf1;    
   rPM[0] = radius * rPMuv[0];
   rPM[1] = radius * rPMuv[1];
   rPM[2] = radius * rPMuv[2];
@@ -298,25 +303,28 @@ double GrabnerDiskContact (
     rQM[0] = rQO[0] - rMO[0];
     rQM[1] = rQO[1] - rMO[1];
     rQM[2] = rQO[2] - rMO[2];
-    aOut[0] = (int) (forceNormal * nP[0] + forceTangentMag * forceTangentUV[0]);
-    aOut[1] = (int) (forceNormal * nP[1] + forceTangentMag * forceTangentUV[1]);
-    aOut[2] = (int) (forceNormal * nP[2] + forceTangentMag * forceTangentUV[2]);
-    aOut[3] = (int) (rPM[1] * (double) aOut[2] - rPM[2] * (double) aOut[1]);
-    aOut[4] = (int) (-rPM[0] * (double) aOut[2] + rPM[2] * (double) aOut[0]);
-    aOut[5] = (int) (rPM[0] * (double) aOut[1] - rPM[1] * (double) aOut[0]);
+    aOut[0] = (forceNormal * nP[0] + forceTangentMag * forceTangentUV[0]);
+    aOut[1] = (forceNormal * nP[1] + forceTangentMag * forceTangentUV[1]);
+    aOut[2] = (forceNormal * nP[2] + forceTangentMag * forceTangentUV[2]);
+    aOut[3] = (rPM[1] * (double) aOut[2] - rPM[2] * (double) aOut[1]);
+    aOut[4] = (-rPM[0] * (double) aOut[2] + rPM[2] * (double) aOut[0]);
+    aOut[5] = (rPM[0] * (double) aOut[1] - rPM[1] * (double) aOut[0]);
     aOut[6] = -aOut[0];
     aOut[7] = -aOut[1];
     aOut[8] = -aOut[2];
-    aOut[9] = (int) (rPMO[1] * (double) aOut[8] - rPMO[2] * (double) aOut[7]);
-    aOut[10] = (int) (-rPMO[0] * (double) aOut[8] + rPMO[2] * (double) aOut[6]);
-    aOut[11] = (int) (rPMO[0] * (double) aOut[7] - rPMO[1] * (double) aOut[6]);
+    aOut[9] =  (rPMO[1] * (double) aOut[8] - rPMO[2] * (double) aOut[7]);
+    aOut[10] = (-rPMO[0] * (double) aOut[8] + rPMO[2] * (double) aOut[6]);
+    aOut[11] = (rPMO[0] * (double) aOut[7] - rPMO[1] * (double) aOut[6]);
     
-    //edited - only available in this copy
+
+    
+  }
+  
+      //edited - only available in this copy
     aOut[12] = rPMO[0] + rO[0];
     aOut[13] = rPMO[1] + rO[1];
     aOut[14] = rPMO[2] + rO[2];
-    
-  }
+  
   return(0.0e0);
 }
 

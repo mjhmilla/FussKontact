@@ -335,5 +335,4 @@ pData.grf       = pData.grf(t0:1:t1,:);
 pData.cop       = pData.cop(t0:1:t1,:);
 pData.mkrs      = pData.mkrs(:,:,t0:1:t1);
 pData.mdlState  = pData.mdlState(t0:1:t1,:);
-pData.grfMAXZ = max(pData.grf(:,3));
 

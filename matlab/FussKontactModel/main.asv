@@ -5,9 +5,9 @@ clear all;
 
 tsim = [0 2];
 aniPoints = 100*tsim(2);
-expFile = 'data/Rotations10.mat';
+expFile = 'data/Rotations02.mat';
 grfFiltFreq = [];
-tmax = 10;
+tmax = 5.8;
 
 flag_refineIC = 1;
 flag_mode = 2;
