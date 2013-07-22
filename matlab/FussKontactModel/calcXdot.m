@@ -1,13 +1,31 @@
-function xdot = calcXdot(t,x,vParams,vToe, expData, flag_mode)
+function xdot = calcXdot(t,x,vParams,vToe, expData, ctrlWeights, flag_mode)
+%%
+% Computes the state derivative of the foot contact model. If flag_mode is 
+% 2, then control forces are computed to drive the model foot to have the
+% same ground reaction force vector and COP position as was observed in
+% the experimental data
+% 
+% @param t: time
+% @param x: the state vector (vx,vy,vz,dth,wx,wy,wz,x,y,z,th,zeta,eta,xi)
+% @param vToe: the stiffness and damping (a 1x2 vector) of the toe joint
+% @param expData: a structure that contains experimental data, as well
+%                 as very specific transformations of that data for this
+%                 foot contact model.
+% @param ctrlWeights: relative weights applied to the position and force
+%                     feedback controller that is used when flag_mode=2.
+% @param flag_mode: 0 the foot passively falls. If this parameter is 2
+%                   then a control wrench is applied to the foot to
+%                   drive it to reproduce the observed ground reaction 
+%                   force and cop trajectory
+%
+%%
 
-
-
-Fx = 0;
-Fy = 0;
-Fz = 0;
-Mx = 0;
-My = 0;
-Mz = 0;
+FxC = 0;
+FyC = 0;
+FzC = 0;
+MxC = 0;
+MyC = 0;
+MzC = 0;
 
 %%
 % Compute passive toe torque
@@ -21,16 +39,16 @@ TK1cK2a = -kmt*x(idx_th) - dmt*x(idx_dth);
 %%
 %Populate input vector
 %%
-
-FxC = 0;
-FyC = 0;
-FzC = 0;
-MxC = 0;
-MyC = 0;
-MzC = 0;   
 vInputs = [FxC,FyC,FzC,MxC,MyC,MzC,TK1cK2a]';
 
 if(flag_mode == 2)
+    %%
+    % Get the control weights
+    %%
+    expXGain = ctrlWeights(1);
+    dampGain = ctrlWeights(2);
+    smax     = ctrlWeights(3);
+    
     %%
     %Compute the ground reaction force
     %%
@@ -75,7 +93,7 @@ if(flag_mode == 2)
              0 0  0   1e-3   0 0 0;...
              0 0  0   0   1e-3 0 0;...
              0 0  0   0   0 1e-3 0;...
-             0 0  0   0   0 0 1e-1].*10; %In Mz entry: 1e-3
+             0 0  0   0   0 0 1e-1].*expXGain; %In Mz entry: 1e-3
     
 %     kVel = [1 0  0   0   0 0 0;...
 %              0 1 0   0   0 0 0;...
@@ -140,13 +158,13 @@ if(flag_mode == 2)
             0 0 0 0 5 0;...
             0 0 0 0 0 5];
 
-    dampWRENCH = -damp*vel.*(1);    
+    dampWRENCH = -damp*vel.*(dampGain);    
 
     %%
     %Enable or disable components
     %%
 
-    s = (expGRF(3)/expData.grfMAXZ)*0.5;
+    s = (expGRF(3)/expData.grfMAXZ)*smax;
     
 
     for i = 1:1:6
@@ -159,9 +177,10 @@ if(flag_mode == 2)
     posToeTRACKING = posToeTRACKING.*(1-s);
     velToeTRACKING = velToeTRACKING.*(1-s);
     
-    expWRENCH = expWRENCH.*(s+0.5);
-    fbWRENCH = fbWRENCH.*(s+0.5);
-    dampWRENCH = dampWRENCH.*(s+0.5);
+    expWRENCH =   expWRENCH.*(s + (1-smax));
+    fbWRENCH  =    fbWRENCH.*(s + (1-smax));
+    dampWRENCH = dampWRENCH.*(s + (1-smax));
+    
     
     
     

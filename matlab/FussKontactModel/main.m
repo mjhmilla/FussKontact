@@ -7,7 +7,7 @@ tsim = [0 2];
 aniPoints = 100*tsim(2);
 expFile = 'data/Rotations10.mat';
 grfFiltFreq = [];
-tmax = 10;
+tmax = 1;
 
 flag_refineIC = 1;
 flag_mode = 2;
@@ -18,6 +18,8 @@ flag_mode = 2;
 
 
 vToe = [5, 5]; %Stiffness & damping at the nonlinear toe joint
+
+ctrlGAIN = [10, 10, 0.5];
 
 %%
 % Setup the model
@@ -100,7 +102,8 @@ switch(flag_mode)
         disp('2: Forward simulation with controller');        
         
         disp('  Edit later: Major functionality from controller missing');
-        xdotAFunc = @(targ,xarg) calcXdot(targ,xarg,vParams,vToe, expData, flag_mode);
+        xdotAFunc = @(targ,xarg) calcXdot(targ,xarg,vParams,...
+                                          vToe, expData, ctrlGAIN, flag_mode);
         xdotEvent = @(targ,yarg) footEvent(targ,yarg,vParams,expData);
         
         options = odeset('RelTol',1e-4,'AbsTol',1e-5,...
@@ -115,6 +118,11 @@ switch(flag_mode)
         
     case 3
         disp('3. Minimize accelerations given applied wrench');
+        
+        disp('  *Probably by 1. Adding a delta to the main trajectory');
+        disp('   and scaling the delta by /1000, this could be made to');
+        disp('   work');
+        
         t = 0;
         solPose = zeros(length(expData.time),7);
         solErr  = zeros(length(expData.time),1);        
