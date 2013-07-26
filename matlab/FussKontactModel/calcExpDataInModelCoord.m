@@ -1,4 +1,4 @@
-function pData = calcExpDataInModelCoord(expFile, grfFiltFreq)
+function pData = calcExpDataInModelCoord(expFile, vToe, grfFiltFreq)
 %%
 % Will read in processed *.mat files from a previous experiment (record
 % 3D foot kinematics and ground reaction forces) and will transform them
@@ -16,7 +16,7 @@ function pData = calcExpDataInModelCoord(expFile, grfFiltFreq)
 %
 %
 %%
-    toeOffsetAngle = 1.5*(-1.972594094578409e-001);
+    toeOffsetAngle = vToe(3);
 
     pData = [];
     if(isempty(expFile)==1)
@@ -321,6 +321,9 @@ end
 %%
 %Trim all data so that the foot is always in contact
 %%
+
+%t0 = min(find(pData.time > 10));
+%t1 = length(pData.time);
 
 pData.time      = pData.time(t0:1:t1)-pData.time(t0);
 pData.wrench    = pData.wrench(t0:1:t1,:);

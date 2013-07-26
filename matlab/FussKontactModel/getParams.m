@@ -1,4 +1,4 @@
-function vParams = getParams()
+function [vParams vToe] = getParams()
 
 
 paramList;
@@ -23,3 +23,5 @@ vParams = [G,Jxx1,Jxx2,...
              sx,sy,sz,...
              t1x,t1y,t1z,...
              t2x,t2y,t2z]';
+         
+vToe = [kmt, dmt, thOff];

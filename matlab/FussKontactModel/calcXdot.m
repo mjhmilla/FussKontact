@@ -30,11 +30,7 @@ MzC = 0;
 %%
 % Compute passive toe torque
 %%
-idx_dth = 4;
-idx_th  = 11;
-kmt = vToe(1);
-dmt = vToe(2);
-TK1cK2a = -kmt*x(idx_th) - dmt*x(idx_dth);
+TK1cK2a = calcToeTorque(x,vToe);
 
 %%
 %Populate input vector
@@ -52,7 +48,7 @@ if(flag_mode == 2)
     %%
     %Compute the ground reaction force
     %%
-    contactInfo = calcContactForcePosition(t,x,vParams,[0 0 0 0 0 0 TK1cK2a]');
+    contactInfo = calcContactForcePosition(t,x,vParams(1:50),[0 0 0 0 0 0 TK1cK2a]');
     grfCOP = calcModelGRFCOP(contactInfo);
     grf = grfCOP(1:3);
     cop = grfCOP(4:6);
@@ -87,13 +83,13 @@ if(flag_mode == 2)
     
     %disp( sum(errPos.*errPos));
     
-    kPosVel = [1e-1 0  0   0   0 0 0;...
-             0 1e-1 0   0   0 0 0;...
-             0 0  1e-1  0   0 0 0;...
-             0 0  0   1e-3   0 0 0;...
-             0 0  0   0   1e-3 0 0;...
-             0 0  0   0   0 1e-3 0;...
-             0 0  0   0   0 0 1e-1].*expXGain; %In Mz entry: 1e-3
+    kPosVel = [1e-1 0  0   0    0    0    0;...
+               0 1e-1  0   0    0    0    0;...
+               0 0  1e-1   0    0    0    0;...
+               0 0  0      1e-3 0    0    0;...
+               0 0  0      0    1e-3    0    0;...
+               0 0  0      0    0    1e-3    0;...
+               0 0  0      0    0    0    1e-3].*expXGain; %In Mz entry: 1e-3
     
 %     kVel = [1 0  0   0   0 0 0;...
 %              0 1 0   0   0 0 0;...
@@ -137,12 +133,12 @@ if(flag_mode == 2)
     
     
     fbWRENCH = zeros(6,1);
-    fbWRENCH(1) = -0.1*errV(1);    
-    fbWRENCH(2) = -0.1*errV(2);    
+    fbWRENCH(1) = 0*errV(1);    
+    fbWRENCH(2) = 0*errV(2);    
     fbWRENCH(3) = -50*errV(3);     
-    fbWRENCH(4) = 10*errV(4);
-    fbWRENCH(5) = 10*errV(5);
-    fbWRENCH(6) = 10*errV(6);
+    fbWRENCH(4) = 20*errV(4);
+    fbWRENCH(5) = 20*errV(5);
+    fbWRENCH(6) = 1*errV(6);
     
     
     %fbWRENCH = zeros(size(fbWRENCH));
@@ -168,18 +164,18 @@ if(flag_mode == 2)
     
 
     for i = 1:1:6
-        if(i ~= 5)
+        %if(i ~= 5)
         posTRACKING(i) = posTRACKING(i).*(1-s);
         velTRACKING(i) = velTRACKING(i).*(1-s);
-        end
+        %end
     end
     
     posToeTRACKING = posToeTRACKING.*(1-s);
     velToeTRACKING = velToeTRACKING.*(1-s);
     
-    expWRENCH =   expWRENCH.*(s + (1-smax));
-    fbWRENCH  =    fbWRENCH.*(s + (1-smax));
-    dampWRENCH = dampWRENCH.*(s + (1-smax));
+    expWRENCH =   expWRENCH;
+    fbWRENCH  =    fbWRENCH;
+    dampWRENCH = dampWRENCH.*s;
     
     
     
@@ -201,5 +197,5 @@ if(flag_mode == 2)
 end
 
 
-tmp = xDotMex(t, x, vParams, vInputs);
+tmp = xDotMex(t, x, vParams(1:50), vInputs);
 xdot = tmp(1:1:length(x));

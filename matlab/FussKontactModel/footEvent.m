@@ -1,28 +1,17 @@
-function [value, isterminal, direction] = footEvent(t,x,vParams,expData)
+function [value, isterminal, direction] = footEvent(t,x,expData)
 
-contactInfo = calcContactForcePosition(t,x,vParams,[0,0,0,0,0,0,0]');
-
-heelF = contactInfo(1:3);
-foreF = contactInfo(7:9);
-heelCOP=contactInfo(4:6);
-foreCOP=contactInfo(10:12);
-
-grf = heelF+foreF;
-
-
-
-expGRF = zeros(3,1);
-expCOP = zeros(3,1);
-for i=1:1:3
-   expGRF(i) = interp1(expData.time, expData.grf(:,i),t);
-   expCOP(i) = interp1(expData.time, expData.cop(:,i),t);
+expX = zeros(size(x));
+for i=1:1:14
+    expX(i) = interp1(expData.time, expData.mdlState(:,i), t);
 end
+errX = x - expX;
 
-grfErr = expGRF-grf;
+rErr   = sum( errX(8:10).^2 )^0.5;
+angErr = max(abs( errX(12:14) ));
+
 value = 0;
-if(sum(grfErr.*grfErr) > 100)
-   value = 1; 
-   disp('Simulation Terminated: Error is too large');
+if(rErr > 0.15 || angErr > pi/3)
+ value = 1;
 end
 
 isterminal = 1;

@@ -1,0 +1,58 @@
+%Assuming we have variables
+% vParam and vToe
+paramIdx;
+
+    G= vParams(    G_idx);    
+ Jxx1= vParams( Jxx1_idx);    
+ Jyy1= vParams( Jyy1_idx);    
+ Jzz1= vParams( Jzz1_idx);    
+ Jxx2= vParams( Jxx2_idx);    
+ Jyy2= vParams( Jyy2_idx);    
+ Jzz2= vParams( Jzz2_idx);    
+ K1ax= vParams( K1ax_idx);    
+ K1ay= vParams( K1ay_idx);    
+ K1az= vParams( K1az_idx);    
+K1brx= vParams(K1brx_idx);   
+K1bry= vParams(K1bry_idx);   
+ K1bx= vParams( K1bx_idx);    
+ K1by= vParams( K1by_idx);    
+ K1bz= vParams( K1bz_idx);    
+ K1cx= vParams( K1cx_idx);    
+ K1cy= vParams( K1cy_idx);    
+ K1cz= vParams( K1cz_idx);    
+K1crz= vParams(K1crz_idx);   
+ K2ax= vParams( K2ax_idx);    
+ K2ay= vParams( K2ay_idx);    
+ K2az= vParams( K2az_idx);    
+   aF= vParams(   aF_idx);      
+   aH= vParams(   aH_idx);      
+   cF= vParams(   cF_idx);      
+   cH= vParams(   cH_idx);      
+dyVel= vParams(dyVel_idx);   
+   kF= vParams(   kF_idx);      
+   kH= vParams(   kH_idx);      
+   m1= vParams(   m1_idx);      
+   m2= vParams(   m2_idx);      
+  mud= vParams(  mud_idx);     
+  mus= vParams(  mus_idx);     
+   nx= vParams(   nx_idx);      
+   ny= vParams(   ny_idx);      
+   nz= vParams(   nz_idx);      
+   pF= vParams(   pF_idx);      
+   pH= vParams(   pH_idx);      
+   rF= vParams(   rF_idx);      
+   rH= vParams(   rH_idx);      
+stVel= vParams(stVel_idx);   
+   sx= vParams(   sx_idx);      
+   sy= vParams(   sy_idx);      
+   sz= vParams(   sz_idx);      
+  t1x= vParams(  t1x_idx);     
+  t1y= vParams(  t1y_idx);     
+  t1z= vParams(  t1z_idx);     
+  t2x= vParams(  t2x_idx);     
+  t2y= vParams(  t2y_idx);     
+  t2z= vParams(  t2z_idx);     
+                
+  kmt =   vToe(  kmt_idx);     
+  dmt =   vToe(  dmt_idx);     
+thOff =   vToe(thOff_idx);   

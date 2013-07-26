@@ -1,50 +1,33 @@
-function err = calcErrorGivenWrenchZ(xPose, t, vParams, vToe, expData)
+function err = calcErrorGivenWrenchZ(xDelta, t, scaling, xPose0 ,vParams, vToe, expData)
 
 err = inf;
 
 %%
 %Get the experimental data at time t
 %%
-wrenchZ = zeros(6,1);
 expX = zeros(14,1);
-for i=1:1:6
-    wrenchZ(i) = interp1(expData.time, expData.wrenchZ(:,i),t);
-end
 for i=1:1:14
     expX(i) = interp1(expData.time, expData.mdlState(:,i), t);
 end
 %%
 %Construct the static pose
 %%
+
 x = zeros(14,1);
-x(8) = expX(8);
-x(9) = expX(9);
-x(10) = xPose(1);
-x(11) = xPose(2);
-x(12) = xPose(3);
-x(13) = expX(13);%xPose(4);
-x(14) = expX(14);%xPose(5);
+for i=1:1:7
+   x(7+i) = xPose0(i) + xDelta(i)./scaling; 
+end
 
 %%
 % Compute passive toe torque
 %%
-idx_dth = 4;
-idx_th  = 11;
-kmt = vToe(1);
-dmt = vToe(2);
-TK1cK2a = -kmt*x(idx_th) - dmt*x(idx_dth);
+TK1cK2a = calcToeTorque(x,vToe);
 
 %%
 % Apply the experimental wrench to the foot
 %%
-FxC = wrenchZ(1);
-FyC = wrenchZ(2);
-FzC = wrenchZ(3);
-MxC = wrenchZ(4);
-MyC = wrenchZ(5);
-MzC = wrenchZ(6);
 
-vInputs = [FxC,FyC,FzC,MxC,MyC,MzC,TK1cK2a]';
+vInputs = [0,0,0,0,0,0,TK1cK2a]';
 
 %%
 % Compute the accelerations of the foot

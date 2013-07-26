@@ -1,8 +1,9 @@
-function success = postprocess(tsol, xsol, contactInfo, vInput, aniPoints, expData)
+function success = postprocess(tsol, xsol, contactInfo, vInput, ...
+                   aniPoints, expData, vParams, vToe)
 
 success = 0;
 
-paramList;
+buildParamVariableList; %requires vParams and vToe
 
 t0 = tsol(1);
 t1 = tsol(length(tsol));

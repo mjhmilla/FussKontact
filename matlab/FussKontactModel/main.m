@@ -5,9 +5,9 @@ clear all;
 
 tsim = [0 2];
 aniPoints = 100*tsim(2);
-expFile = 'data/Rotations10.mat';
+expFile = 'Walking01.mat';
 grfFiltFreq = [];
-tmax = 1;
+tmax = inf;
 
 flag_refineIC = 1;
 flag_mode = 2;
@@ -17,17 +17,19 @@ flag_mode = 2;
 % 3: optimization a la Prof. Kecskemethy's IUTAM paper
 
 
-vToe = [5, 5]; %Stiffness & damping at the nonlinear toe joint
 
-ctrlGAIN = [10, 10, 0.5];
-
+ctrlGAIN = [100, 10, 1];
+%Running: [100,10,1];
+%Walking: [10, 2, 1];
+%Rotations: [10 10 0];
 %%
 % Setup the model
 %%
 disp('1. Preprocessing');
-vParams = getParams();
+[vParams vToe]= getParams();
 vInputs = getInputs(); 
 vIC = getIC(); %    
+
 
 t0 = 0;
 
@@ -37,7 +39,8 @@ t0 = 0;
 %  Similiar   : Foot state
 %%
 
-expData = calcExpDataInModelCoord(expFile, grfFiltFreq);
+expData = calcExpDataInModelCoord(['data/',expFile], vToe,grfFiltFreq);
+
 if(isempty(expData)~=1)           
    if(flag_mode >= 2)
        t0 = min(expData.time);
@@ -46,23 +49,20 @@ if(isempty(expData)~=1)
         t1 = tmax;
        end
        
-       tsim = [t0 t1];
-       
-       
+       tsim = [t0 t1];              
        vIC = expData.mdlState(1,:)';          
 
        if flag_refineIC == 1
-           vIC = refineInitialConditions(vIC, expData.grf, expData.cop,...
-                                         vParams,vInputs,vToe);
+           vIC = refineInitialConditions(vIC, expData, vParams, vToe);
 
-           expData.mdlStateOffset(8:10) = vIC(8:10)'-expData.mdlState(1,8:10);
-       else
-           
+           expData.mdlStateOffset = vIC'-expData.mdlState(1,:);
        end
    end   
 end
 
 
+
+save(['modeldata/',expFile], 'expData');
 
 
 %%
@@ -101,13 +101,12 @@ switch(flag_mode)
     case 2
         disp('2: Forward simulation with controller');        
         
-        disp('  Edit later: Major functionality from controller missing');
         xdotAFunc = @(targ,xarg) calcXdot(targ,xarg,vParams,...
                                           vToe, expData, ctrlGAIN, flag_mode);
-        xdotEvent = @(targ,yarg) footEvent(targ,yarg,vParams,expData);
+        xdotEvent = @(targ,yarg) footEvent(targ,yarg,expData);
         
         options = odeset('RelTol',1e-4,'AbsTol',1e-5,...
-                         'OutputFcn',@getIntegratorOutput);%,'Events',xdotEvent);
+                         'OutputFcn',@getIntegratorOutput,'Events',xdotEvent);
         
         ticID = tic;
         [t sol] = ode15s(xdotAFunc,tsim,vIC,options);
@@ -118,47 +117,69 @@ switch(flag_mode)
         
     case 3
         disp('3. Minimize accelerations given applied wrench');
-        
-        disp('  *Probably by 1. Adding a delta to the main trajectory');
-        disp('   and scaling the delta by /1000, this could be made to');
-        disp('   work');
-        
+               
         t = 0;
         solPose = zeros(length(expData.time),7);
         solErr  = zeros(length(expData.time),1);        
         solExitFlag = zeros(length(expData.time),1);
-        inputInfo = zeros(length(expData.time),7);
-        %Find z, zeta, eta, xi s.t. Fz and its wrench are reproduced
-        x0 = [vIC(10), vIC(11), vIC(12)];%, vIC(13), vIC(14)]';
-        x0 = double(x0);
+
+        %Find z, th, zeta, eta, xi s.t. Fz        
+        x0 = zeros(size(vIC));
+        x0(8:14) = vIC(8:14);
+        xDelta = zeros(5,1);
+        
+        
+        scaling = 10000;
         options = optimset('Display','off','Diagnostics','off',...
                            'TolX',1e-12, 'TolFun', 1e-12,'MaxIter',1000);
+           
+        expX0 = zeros(size(x0));
+                       
         for i = 1:1:length(expData.time)
-           t = expData.time(i);
-           errWrenchZ = @(x) calcErrorGivenWrenchZ(x,t,vParams,vToe,expData);
            
+           %Update the previous solution for this time
+           x0(1:7)   = 0;
+           x0(8:9)   = expData.mdlState(i,8:9);
+           x0(10:14) = x0(10:14) + xDelta(1:5)./scaling;
+             
+           expX0(8:14) = [x0(8:11); expData.mdlState(i,12:14)'];
+           
+           %Update the anomomous function 
+           errCFcn = @(x)calcContactForceError(x, x0, scaling,vParams,...
+                expX0, expData.grf(i,:), expData.cop(i,:));
+
+           %Optimize
            ticID = tic;
-           [sol fval exitflag output grad] = fminunc(errWrenchZ,x0,options);
+           [xDelta err exitflag] = fminunc(errCFcn,zeros(5,1), options);
            elapsedTime = toc(ticID);
-           disp(sprintf('Iter %i/%i: %f s',...
-               i,length(expData.time),elapsedTime));
            
-           x0 = sol;
-           err = errWrenchZ(sol);
+           %Update the solution given the optimized solution
+           x0(1:7)   = 0;
+           x0(8:9)   = expData.mdlState(i,8:9);
+           x0(10:14) = x0(10:14) + xDelta(1:5)./scaling;
            
-           expX = expData.mdlState(i,:);
-           solPose(i,:) = [expX(8:14)];
-           solPose(i,3:5)= sol;           
+           %
+           contactInfo=calcContactForcePosition(0,x0,vParams,[0 0 0 0 0 0 0]');
+           grfCOP = calcModelGRFCOP(contactInfo);
+           grf = grfCOP(1:3);
+           cop = grfCOP(4:6);
+                                
+           %Output
+           disp(sprintf('Iter %i/%i: %f s, dFz %f dCOPx %f dCOPy %f',...
+                        i,length(expData.time),elapsedTime,...
+                        (expData.grf(i,3)-grf(3)),...
+                        (expData.cop(i,1)-cop(1)),...
+                        (expData.cop(i,2)-cop(2))));
            
-           solErr(i) = fval;
+           %Store the solution
+           solPose(i,:) = [x0(8:14)'];           
+           solErr(i) = err;
            solExitFlag(i) = exitflag;
-           
-           expWrench = expData.wrenchZ(i,:);
-           inputInfo(i,:) = [expWrench, 0];
-           
+
         end
         
         t = expData.time;
+        inputInfo = zeros(length(t),7);
         sol = [zeros(size(solPose)) solPose];
         
 end
@@ -172,7 +193,7 @@ for i=1:1:length(t)
    end       
 end
 
-if(flag_mode == 2)
+if(flag_mode == 2 || flag_mode == 3)
    fig = figure;
    mdlGRFCOP = zeros(length(t),6);
    for i=1:1:length(t)

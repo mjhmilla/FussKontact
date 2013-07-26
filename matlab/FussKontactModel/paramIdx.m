@@ -20,10 +20,11 @@ K1crz_idx   = 16;
 K1cx_idx    = 17;
 K1cy_idx    = 18;
 K1cz_idx    = 19;
-K2ax_idx    = 20;
 
+K2ax_idx    = 20;
 K2ay_idx    = 21;
 K2az_idx    = 22;
+
 aF_idx      = 23;
 aH_idx      = 24;
 cF_idx      = 25;
@@ -57,3 +58,8 @@ t1z_idx     = 47;
 t2x_idx     = 48;
 t2y_idx     = 49;
 t2z_idx     = 50;
+
+kmt_idx     = 1;
+dmt_idx     = 2;
+thOff_idx   = 3;
+
